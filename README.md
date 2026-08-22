@@ -98,6 +98,186 @@ Autonomous Navigation
 
 ---
 
+# 📂 Repository Structure
+
+The repository is organized into learning modules.
+
+Each module focuses on a specific part of the ROS 2 robotics stack. The examples and experiments become progressively more complex until they are integrated into the final autonomous mobile robot.
+
+```text
+LearnROS/
+│
+├── README.md
+├── LICENSE
+├── .gitignore
+│
+├── 01_ros2_fundamentals/
+│   │
+│   ├── 01_ros2_basics/
+│   │   └── README.md
+│   │
+│   ├── 02_nodes/
+│   │   ├── README.md
+│   │   ├── python/
+│   │   └── cpp/
+│   │
+│   ├── 03_topics/
+│   │   ├── README.md
+│   │   ├── python/
+│   │   └── cpp/
+│   │
+│   ├── 04_publishers_subscribers/
+│   │   ├── README.md
+│   │   ├── python/
+│   │   └── cpp/
+│   │
+│   ├── 05_messages/
+│   │   ├── README.md
+│   │   └── examples/
+│   │
+│   ├── 06_services/
+│   │   ├── README.md
+│   │   ├── python/
+│   │   └── cpp/
+│   │
+│   ├── 07_actions/
+│   │   ├── README.md
+│   │   ├── python/
+│   │   └── cpp/
+│   │
+│   ├── 08_parameters/
+│   │   ├── README.md
+│   │   └── examples/
+│   │
+│   ├── 09_launch_files/
+│   │   ├── README.md
+│   │   └── examples/
+│   │
+│   └── 10_packages_workspaces/
+│       ├── README.md
+│       └── examples/
+│
+├── 02_gazebo/
+│   │
+│   ├── 01_gazebo_basics/
+│   ├── 02_worlds/
+│   ├── 03_models/
+│   ├── 04_robot_spawning/
+│   ├── 05_ros2_gazebo/
+│   └── 06_physics/
+│
+├── 03_mobile_robot/
+│   │
+│   ├── 01_differential_drive/
+│   ├── 02_urdf/
+│   ├── 03_robot_description/
+│   ├── 04_wheels/
+│   ├── 05_cmd_vel/
+│   └── 06_odometry/
+│
+├── 04_sensors/
+│   │
+│   ├── 01_lidar/
+│   ├── 02_imu/
+│   ├── 03_odometry/
+│   └── 04_sensor_integration/
+│
+├── 05_rviz/
+│   │
+│   ├── 01_rviz_basics/
+│   ├── 02_robot_model/
+│   ├── 03_lidar_visualization/
+│   ├── 04_odometry/
+│   └── 05_visualization/
+│
+├── 06_tf2/
+│   │
+│   ├── 01_frames/
+│   ├── 02_static_transforms/
+│   ├── 03_dynamic_transforms/
+│   └── 04_robot_tf_tree/
+│
+├── 07_slam/
+│   │
+│   ├── 01_slam_concepts/
+│   ├── 02_slam_toolbox/
+│   ├── 03_mapping/
+│   ├── 04_loop_closure/
+│   ├── 05_map_saving/
+│   └── maps/
+│
+├── 08_localization/
+│   │
+│   ├── 01_localization_concepts/
+│   ├── 02_amcl/
+│   ├── 03_known_map/
+│   └── 04_pose_estimation/
+│
+├── 09_nav2/
+│   │
+│   ├── 01_nav2_basics/
+│   ├── 02_costmaps/
+│   ├── 03_global_planner/
+│   ├── 04_local_controller/
+│   ├── 05_obstacle_avoidance/
+│   └── 06_navigation_goals/
+│
+├── 10_autonomous_mobile_robot/
+│   ├── robot_description/
+│   ├── config/
+│   ├── launch/
+│   ├── worlds/
+│   ├── maps/
+│   ├── scripts/
+│   └── README.md
+│
+└── notes/
+    ├── ros2_commands.md
+    ├── useful_commands.md
+    ├── concepts.md
+    └── troubleshooting.md
+```
+
+### Repository organization
+
+The repository has three main purposes:
+
+**1. Learn**
+
+Each numbered module introduces a new ROS 2 or robotics concept.
+
+```text
+01_ros2_fundamentals/
+02_gazebo/
+03_mobile_robot/
+04_sensors/
+...
+```
+
+**2. Experiment**
+
+Each topic contains small, isolated examples designed to understand one concept before integrating it into a larger system.
+
+For example:
+
+```text
+03_topics/
+├── python/
+└── cpp/
+```
+
+**3. Integrate**
+
+The final project combines the concepts learned throughout the repository:
+
+```text
+10_autonomous_mobile_robot/
+```
+
+This separation makes it easier to understand individual concepts while maintaining a realistic final robotics application.
+
+---
+
 # 1. ROS 2 Fundamentals
 
 The first stage focuses on understanding the ROS 2 communication model.
@@ -620,66 +800,6 @@ The final demonstration should be:
 | **LiDAR**        | Environment perception          |
 | **IMU**          | Motion sensing                  |
 | **Odometry**     | Motion estimation               |
-
----
-
-# 📂 Repository Structure
-
-The repository will progressively evolve into something like:
-
-```text
-LearnROS/
-│
-├── README.md
-│
-├── 01_ros2_basics/
-│   ├── nodes/
-│   ├── topics/
-│   ├── services/
-│   ├── actions/
-│   └── parameters/
-│
-├── 02_ros2_workspace/
-│   ├── python_packages/
-│   ├── cpp_packages/
-│   └── launch/
-│
-├── 03_gazebo/
-│   ├── worlds/
-│   ├── models/
-│   └── launch/
-│
-├── 04_mobile_robot/
-│   ├── description/
-│   ├── control/
-│   └── launch/
-│
-├── 05_sensors/
-│   ├── lidar/
-│   ├── imu/
-│   └── odometry/
-│
-├── 06_rviz/
-│
-├── 07_tf2/
-│
-├── 08_slam/
-│   ├── config/
-│   ├── launch/
-│   └── maps/
-│
-├── 09_localization/
-│
-├── 10_nav2/
-│   ├── config/
-│   ├── launch/
-│   └── maps/
-│
-└── 11_autonomous_robot/
-    ├── config/
-    ├── launch/
-    └── README.md
-```
 
 ---
 
