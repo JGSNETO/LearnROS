@@ -1,0 +1,17 @@
+package.xml
+setup.cfg
+setup.py
+../build/vehicle_speed/vehicle_speed.egg-info/PKG-INFO
+../build/vehicle_speed/vehicle_speed.egg-info/SOURCES.txt
+../build/vehicle_speed/vehicle_speed.egg-info/dependency_links.txt
+../build/vehicle_speed/vehicle_speed.egg-info/entry_points.txt
+../build/vehicle_speed/vehicle_speed.egg-info/requires.txt
+../build/vehicle_speed/vehicle_speed.egg-info/top_level.txt
+../build/vehicle_speed/vehicle_speed.egg-info/zip-safe
+resource/vehicle_speed
+test/test_copyright.py
+test/test_flake8.py
+test/test_pep257.py
+vehicle_speed/__init__.py
+vehicle_speed/publisher.py
+vehicle_speed/subscriber.py

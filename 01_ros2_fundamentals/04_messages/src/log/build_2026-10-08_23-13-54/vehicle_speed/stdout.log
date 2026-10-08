@@ -1,0 +1,23 @@
+running egg_info
+writing ../build/vehicle_speed/vehicle_speed.egg-info/PKG-INFO
+writing dependency_links to ../build/vehicle_speed/vehicle_speed.egg-info/dependency_links.txt
+writing entry points to ../build/vehicle_speed/vehicle_speed.egg-info/entry_points.txt
+writing requirements to ../build/vehicle_speed/vehicle_speed.egg-info/requires.txt
+writing top-level names to ../build/vehicle_speed/vehicle_speed.egg-info/top_level.txt
+reading manifest file '../build/vehicle_speed/vehicle_speed.egg-info/SOURCES.txt'
+writing manifest file '../build/vehicle_speed/vehicle_speed.egg-info/SOURCES.txt'
+running build
+running build_py
+copying vehicle_speed/publisher.py -> /home/jgsnto/LearnROS/01_ros2_fundamentals/04_messages/src/build/vehicle_speed/build/lib/vehicle_speed
+running install
+running install_lib
+copying /home/jgsnto/LearnROS/01_ros2_fundamentals/04_messages/src/build/vehicle_speed/build/lib/vehicle_speed/publisher.py -> /home/jgsnto/LearnROS/01_ros2_fundamentals/04_messages/src/install/vehicle_speed/lib/python3.10/site-packages/vehicle_speed
+byte-compiling /home/jgsnto/LearnROS/01_ros2_fundamentals/04_messages/src/install/vehicle_speed/lib/python3.10/site-packages/vehicle_speed/publisher.py to publisher.cpython-310.pyc
+running install_data
+running install_egg_info
+removing '/home/jgsnto/LearnROS/01_ros2_fundamentals/04_messages/src/install/vehicle_speed/lib/python3.10/site-packages/vehicle_speed-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../build/vehicle_speed/vehicle_speed.egg-info to /home/jgsnto/LearnROS/01_ros2_fundamentals/04_messages/src/install/vehicle_speed/lib/python3.10/site-packages/vehicle_speed-0.0.0-py3.10.egg-info
+running install_scripts
+Installing publisher script to /home/jgsnto/LearnROS/01_ros2_fundamentals/04_messages/src/install/vehicle_speed/lib/vehicle_speed
+Installing subscriber script to /home/jgsnto/LearnROS/01_ros2_fundamentals/04_messages/src/install/vehicle_speed/lib/vehicle_speed
+writing list of installed files to '/home/jgsnto/LearnROS/01_ros2_fundamentals/04_messages/src/build/vehicle_speed/install.log'

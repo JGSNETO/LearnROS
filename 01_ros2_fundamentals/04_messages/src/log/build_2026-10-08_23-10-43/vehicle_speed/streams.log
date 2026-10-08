@@ -1,0 +1,25 @@
+[2.173s] Invoking command in '/home/jgsnto/LearnROS/01_ros2_fundamentals/04_messages/src/vehicle_speed': PYTHONPATH=/home/jgsnto/LearnROS/01_ros2_fundamentals/04_messages/src/build/vehicle_speed/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jgsnto/LearnROS/01_ros2_fundamentals/04_messages/src/install/vehicle_speed/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/vehicle_speed build --build-base /home/jgsnto/LearnROS/01_ros2_fundamentals/04_messages/src/build/vehicle_speed/build install --record /home/jgsnto/LearnROS/01_ros2_fundamentals/04_messages/src/build/vehicle_speed/install.log --install-scripts $base/lib/vehicle_speed --single-version-externally-managed install_data
+[2.923s] running egg_info
+[2.982s] writing ../build/vehicle_speed/vehicle_speed.egg-info/PKG-INFO
+[2.988s] writing dependency_links to ../build/vehicle_speed/vehicle_speed.egg-info/dependency_links.txt
+[2.988s] writing entry points to ../build/vehicle_speed/vehicle_speed.egg-info/entry_points.txt
+[2.988s] writing requirements to ../build/vehicle_speed/vehicle_speed.egg-info/requires.txt
+[2.991s] writing top-level names to ../build/vehicle_speed/vehicle_speed.egg-info/top_level.txt
+[3.074s] reading manifest file '../build/vehicle_speed/vehicle_speed.egg-info/SOURCES.txt'
+[3.081s] writing manifest file '../build/vehicle_speed/vehicle_speed.egg-info/SOURCES.txt'
+[3.082s] running build
+[3.084s] running build_py
+[3.084s] copying vehicle_speed/subscriber.py -> /home/jgsnto/LearnROS/01_ros2_fundamentals/04_messages/src/build/vehicle_speed/build/lib/vehicle_speed
+[3.084s] running install
+[3.112s] running install_lib
+[3.167s] copying /home/jgsnto/LearnROS/01_ros2_fundamentals/04_messages/src/build/vehicle_speed/build/lib/vehicle_speed/subscriber.py -> /home/jgsnto/LearnROS/01_ros2_fundamentals/04_messages/src/install/vehicle_speed/lib/python3.10/site-packages/vehicle_speed
+[3.169s] byte-compiling /home/jgsnto/LearnROS/01_ros2_fundamentals/04_messages/src/install/vehicle_speed/lib/python3.10/site-packages/vehicle_speed/subscriber.py to subscriber.cpython-310.pyc
+[3.171s] running install_data
+[3.174s] running install_egg_info
+[3.230s] removing '/home/jgsnto/LearnROS/01_ros2_fundamentals/04_messages/src/install/vehicle_speed/lib/python3.10/site-packages/vehicle_speed-0.0.0-py3.10.egg-info' (and everything under it)
+[3.230s] Copying ../build/vehicle_speed/vehicle_speed.egg-info to /home/jgsnto/LearnROS/01_ros2_fundamentals/04_messages/src/install/vehicle_speed/lib/python3.10/site-packages/vehicle_speed-0.0.0-py3.10.egg-info
+[3.232s] running install_scripts
+[3.319s] Installing publisher script to /home/jgsnto/LearnROS/01_ros2_fundamentals/04_messages/src/install/vehicle_speed/lib/vehicle_speed
+[3.320s] Installing subscriber script to /home/jgsnto/LearnROS/01_ros2_fundamentals/04_messages/src/install/vehicle_speed/lib/vehicle_speed
+[3.322s] writing list of installed files to '/home/jgsnto/LearnROS/01_ros2_fundamentals/04_messages/src/build/vehicle_speed/install.log'
+[3.418s] Invoked command in '/home/jgsnto/LearnROS/01_ros2_fundamentals/04_messages/src/vehicle_speed' returned '0': PYTHONPATH=/home/jgsnto/LearnROS/01_ros2_fundamentals/04_messages/src/build/vehicle_speed/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jgsnto/LearnROS/01_ros2_fundamentals/04_messages/src/install/vehicle_speed/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/vehicle_speed build --build-base /home/jgsnto/LearnROS/01_ros2_fundamentals/04_messages/src/build/vehicle_speed/build install --record /home/jgsnto/LearnROS/01_ros2_fundamentals/04_messages/src/build/vehicle_speed/install.log --install-scripts $base/lib/vehicle_speed --single-version-externally-managed install_data

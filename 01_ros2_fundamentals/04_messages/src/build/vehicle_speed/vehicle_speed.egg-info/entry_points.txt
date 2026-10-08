@@ -1,0 +1,3 @@
+[console_scripts]
+publisher = vehicle_speed.publisher:main
+subscriber = vehicle_speed.subscriber:main

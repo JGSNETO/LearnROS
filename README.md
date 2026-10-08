@@ -105,12 +105,6 @@ The repository is organized into learning modules.
 Each module focuses on a specific part of the ROS 2 robotics stack. The examples and experiments become progressively more complex until they are integrated into the final autonomous mobile robot.
 
 ```text
-LearnROS/
-│
-├── README.md
-├── LICENSE
-├── .gitignore
-│
 ├── 01_ros2_fundamentals/
 │   │
 │   ├── 01_ros2_basics/
@@ -126,116 +120,174 @@ LearnROS/
 │   │   ├── python/
 │   │   └── cpp/
 │   │
-│   ├── 04_publishers_subscribers/
+│   ├── 04_messages/
+│   │   ├── README.md
+│   │   └── examples/
+│   │
+│   ├── 05_services/
 │   │   ├── README.md
 │   │   ├── python/
 │   │   └── cpp/
 │   │
-│   ├── 05_messages/
-│   │   ├── README.md
-│   │   └── examples/
-│   │
-│   ├── 06_services/
+│   ├── 06_actions/
 │   │   ├── README.md
 │   │   ├── python/
 │   │   └── cpp/
 │   │
-│   ├── 07_actions/
-│   │   ├── README.md
-│   │   ├── python/
-│   │   └── cpp/
-│   │
-│   ├── 08_parameters/
+│   ├── 07_parameters/
 │   │   ├── README.md
 │   │   └── examples/
 │   │
-│   ├── 09_launch_files/
+│   ├── 08_launch_files/
 │   │   ├── README.md
 │   │   └── examples/
 │   │
-│   └── 10_packages_workspaces/
+│   └── 09_packages_workspaces/
 │       ├── README.md
 │       └── examples/
 │
-├── 02_gazebo/
+├── 02_turtlebot3/
 │   │
-│   ├── 01_gazebo_basics/
-│   ├── 02_worlds/
-│   ├── 03_models/
-│   ├── 04_robot_spawning/
-│   ├── 05_ros2_gazebo/
-│   └── 06_physics/
+│   ├── 01_setup/
+│   │   ├── README.md
+│   │   └── examples/
+│   │
+│   ├── 02_gazebo_basics/
+│   │   ├── README.md
+│   │   └── examples/
+│   │
+│   ├── 03_robot_control/
+│   │   ├── README.md
+│   │   └── examples/
+│   │
+│   ├── 04_robot_interfaces/
+│   │   ├── README.md
+│   │   └── examples/
+│   │
+│   └── 05_sensors/
+│       ├── README.md
+│       └── examples/
 │
 ├── 03_mobile_robot/
 │   │
 │   ├── 01_differential_drive/
-│   ├── 02_urdf/
-│   ├── 03_robot_description/
-│   ├── 04_wheels/
-│   ├── 05_cmd_vel/
-│   └── 06_odometry/
+│   │   ├── README.md
+│   │   └── examples/
+│   │
+│   ├── 02_robot_description/
+│   │   ├── README.md
+│   │   └── examples/
+│   │
+│   ├── 03_urdf_basics/
+│   │   ├── README.md
+│   │   └── examples/
+│   │
+│   └── 04_odometry/
+│       ├── README.md
+│       └── examples/
 │
 ├── 04_sensors/
 │   │
 │   ├── 01_lidar/
+│   │   ├── README.md
+│   │   └── examples/
+│   │
 │   ├── 02_imu/
+│   │   ├── README.md
+│   │   └── examples/
+│   │
 │   ├── 03_odometry/
+│   │   ├── README.md
+│   │   └── examples/
+│   │
 │   └── 04_sensor_integration/
+│       ├── README.md
+│       └── examples/
 │
 ├── 05_rviz/
 │   │
 │   ├── 01_rviz_basics/
-│   ├── 02_robot_model/
-│   ├── 03_lidar_visualization/
-│   ├── 04_odometry/
-│   └── 05_visualization/
+│   │   └── README.md
+│   │
+│   ├── 02_robot_and_sensors/
+│   │   └── README.md
+│   │
+│   └── 03_navigation_visualization/
+│       └── README.md
 │
 ├── 06_tf2/
 │   │
 │   ├── 01_frames/
-│   ├── 02_static_transforms/
-│   ├── 03_dynamic_transforms/
-│   └── 04_robot_tf_tree/
+│   │   └── README.md
+│   │
+│   ├── 02_transforms/
+│   │   └── README.md
+│   │
+│   └── 03_robot_tf_tree/
+│       └── README.md
 │
 ├── 07_slam/
 │   │
 │   ├── 01_slam_concepts/
+│   │   └── README.md
+│   │
 │   ├── 02_slam_toolbox/
+│   │   └── README.md
+│   │
 │   ├── 03_mapping/
+│   │   └── README.md
+│   │
 │   ├── 04_loop_closure/
+│   │   └── README.md
+│   │
 │   ├── 05_map_saving/
+│   │   └── README.md
+│   │
 │   └── maps/
 │
 ├── 08_localization/
 │   │
 │   ├── 01_localization_concepts/
+│   │   └── README.md
+│   │
 │   ├── 02_amcl/
+│   │   └── README.md
+│   │
 │   ├── 03_known_map/
+│   │   └── README.md
+│   │
 │   └── 04_pose_estimation/
+│       └── README.md
 │
 ├── 09_nav2/
 │   │
 │   ├── 01_nav2_basics/
+│   │   └── README.md
+│   │
 │   ├── 02_costmaps/
+│   │   └── README.md
+│   │
 │   ├── 03_global_planner/
+│   │   └── README.md
+│   │
 │   ├── 04_local_controller/
+│   │   └── README.md
+│   │
 │   ├── 05_obstacle_avoidance/
+│   │   └── README.md
+│   │
 │   └── 06_navigation_goals/
+│       └── README.md
 │
-├── 10_autonomous_mobile_robot/
-│   ├── robot_description/
-│   ├── config/
-│   ├── launch/
-│   ├── worlds/
-│   ├── maps/
-│   ├── scripts/
-│   └── README.md
-│
-└── notes/
-    ├── ros2_commands.md
-    ├── useful_commands.md
-    ├── concepts.md
-    └── troubleshooting.md
+└── 10_autonomous_mobile_robot/
+    │
+    ├── robot_description/
+    ├── config/
+    ├── launch/
+    ├── worlds/
+    ├── maps/
+    ├── scripts/
+    └── README.md
 ```
 
 ### Repository organization

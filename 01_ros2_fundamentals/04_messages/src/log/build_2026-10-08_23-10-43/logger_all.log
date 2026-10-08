@@ -1,0 +1,114 @@
+[0.330s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.331s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=3, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x77e8517a0550>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x77e8517a0070>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x77e8517a0070>>, mixin_verb=('build',))
+[0.436s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.437s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.437s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.437s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.438s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.439s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.439s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/jgsnto/LearnROS/01_ros2_fundamentals/04_messages/src'
+[0.440s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.440s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.441s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.442s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.442s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.442s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.443s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.443s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.443s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.483s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.484s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.484s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.484s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.484s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.485s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.486s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.486s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.486s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.487s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.487s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.487s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.491s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.519s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.523s] Level 1:colcon.colcon_core.package_identification:_identify(vehicle_speed) by extensions ['ignore', 'ignore_ament_install']
+[0.524s] Level 1:colcon.colcon_core.package_identification:_identify(vehicle_speed) by extension 'ignore'
+[0.524s] Level 1:colcon.colcon_core.package_identification:_identify(vehicle_speed) by extension 'ignore_ament_install'
+[0.524s] Level 1:colcon.colcon_core.package_identification:_identify(vehicle_speed) by extensions ['colcon_pkg']
+[0.524s] Level 1:colcon.colcon_core.package_identification:_identify(vehicle_speed) by extension 'colcon_pkg'
+[0.526s] Level 1:colcon.colcon_core.package_identification:_identify(vehicle_speed) by extensions ['colcon_meta']
+[0.527s] Level 1:colcon.colcon_core.package_identification:_identify(vehicle_speed) by extension 'colcon_meta'
+[0.527s] Level 1:colcon.colcon_core.package_identification:_identify(vehicle_speed) by extensions ['ros']
+[0.527s] Level 1:colcon.colcon_core.package_identification:_identify(vehicle_speed) by extension 'ros'
+[0.535s] DEBUG:colcon.colcon_core.package_identification:Package 'vehicle_speed' with type 'ros.ament_python' and name 'vehicle_speed'
+[0.536s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.536s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.536s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.536s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.536s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.591s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.591s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.597s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/jgsnto/LearnROS/01_ros2_fundamentals/04_messages/src/install
+[0.602s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 386 installed packages in /opt/ros/humble
+[0.608s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.773s] Level 5:colcon.colcon_core.verb:set package 'vehicle_speed' build argument 'cmake_args' from command line to 'None'
+[0.774s] Level 5:colcon.colcon_core.verb:set package 'vehicle_speed' build argument 'cmake_target' from command line to 'None'
+[0.774s] Level 5:colcon.colcon_core.verb:set package 'vehicle_speed' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.774s] Level 5:colcon.colcon_core.verb:set package 'vehicle_speed' build argument 'cmake_clean_cache' from command line to 'False'
+[0.774s] Level 5:colcon.colcon_core.verb:set package 'vehicle_speed' build argument 'cmake_clean_first' from command line to 'False'
+[0.774s] Level 5:colcon.colcon_core.verb:set package 'vehicle_speed' build argument 'cmake_force_configure' from command line to 'False'
+[0.775s] Level 5:colcon.colcon_core.verb:set package 'vehicle_speed' build argument 'ament_cmake_args' from command line to 'None'
+[0.775s] Level 5:colcon.colcon_core.verb:set package 'vehicle_speed' build argument 'catkin_cmake_args' from command line to 'None'
+[0.775s] Level 5:colcon.colcon_core.verb:set package 'vehicle_speed' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.775s] DEBUG:colcon.colcon_core.verb:Building package 'vehicle_speed' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/jgsnto/LearnROS/01_ros2_fundamentals/04_messages/src/build/vehicle_speed', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/jgsnto/LearnROS/01_ros2_fundamentals/04_messages/src/install/vehicle_speed', 'merge_install': False, 'path': '/home/jgsnto/LearnROS/01_ros2_fundamentals/04_messages/src/vehicle_speed', 'symlink_install': False, 'test_result_base': None}
+[0.776s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.781s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.783s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/jgsnto/LearnROS/01_ros2_fundamentals/04_messages/src/vehicle_speed' with build type 'ament_python'
+[0.783s] Level 1:colcon.colcon_core.shell:create_environment_hook('vehicle_speed', 'ament_prefix_path')
+[0.787s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.788s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jgsnto/LearnROS/01_ros2_fundamentals/04_messages/src/install/vehicle_speed/share/vehicle_speed/hook/ament_prefix_path.ps1'
+[0.790s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jgsnto/LearnROS/01_ros2_fundamentals/04_messages/src/install/vehicle_speed/share/vehicle_speed/hook/ament_prefix_path.dsv'
+[0.792s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jgsnto/LearnROS/01_ros2_fundamentals/04_messages/src/install/vehicle_speed/share/vehicle_speed/hook/ament_prefix_path.sh'
+[0.795s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.796s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.491s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/jgsnto/LearnROS/01_ros2_fundamentals/04_messages/src/vehicle_speed'
+[1.492s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.492s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.891s] DEBUG:colcon.colcon_core.task.python.build:Available setuptools commands: clean, build_ext, saveopts, install, bdist_egg, check, bdist_rpm, editable_wheel, develop, bdist, update_catalog, build_scripts, build, bdist_dumb, alias, install_data, extract_messages, dist_info, compile_catalog, build_py, install_headers, install_lib, sdist, symlink_data, init_catalog, bdist_wheel, rotate, egg_info, install_egg_info, easy_install, install_scripts, build_clib, setopt
+[2.960s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jgsnto/LearnROS/01_ros2_fundamentals/04_messages/src/vehicle_speed': PYTHONPATH=/home/jgsnto/LearnROS/01_ros2_fundamentals/04_messages/src/build/vehicle_speed/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jgsnto/LearnROS/01_ros2_fundamentals/04_messages/src/install/vehicle_speed/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/vehicle_speed build --build-base /home/jgsnto/LearnROS/01_ros2_fundamentals/04_messages/src/build/vehicle_speed/build install --record /home/jgsnto/LearnROS/01_ros2_fundamentals/04_messages/src/build/vehicle_speed/install.log --install-scripts $base/lib/vehicle_speed --single-version-externally-managed install_data
+[4.202s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jgsnto/LearnROS/01_ros2_fundamentals/04_messages/src/vehicle_speed' returned '0': PYTHONPATH=/home/jgsnto/LearnROS/01_ros2_fundamentals/04_messages/src/build/vehicle_speed/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jgsnto/LearnROS/01_ros2_fundamentals/04_messages/src/install/vehicle_speed/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/vehicle_speed build --build-base /home/jgsnto/LearnROS/01_ros2_fundamentals/04_messages/src/build/vehicle_speed/build install --record /home/jgsnto/LearnROS/01_ros2_fundamentals/04_messages/src/build/vehicle_speed/install.log --install-scripts $base/lib/vehicle_speed --single-version-externally-managed install_data
+[4.206s] Level 1:colcon.colcon_core.environment:checking '/home/jgsnto/LearnROS/01_ros2_fundamentals/04_messages/src/install/vehicle_speed' for CMake module files
+[4.207s] Level 1:colcon.colcon_core.environment:checking '/home/jgsnto/LearnROS/01_ros2_fundamentals/04_messages/src/install/vehicle_speed' for CMake config files
+[4.208s] Level 1:colcon.colcon_core.environment:checking '/home/jgsnto/LearnROS/01_ros2_fundamentals/04_messages/src/install/vehicle_speed/lib'
+[4.209s] Level 1:colcon.colcon_core.environment:checking '/home/jgsnto/LearnROS/01_ros2_fundamentals/04_messages/src/install/vehicle_speed/bin'
+[4.209s] Level 1:colcon.colcon_core.environment:checking '/home/jgsnto/LearnROS/01_ros2_fundamentals/04_messages/src/install/vehicle_speed/lib/pkgconfig/vehicle_speed.pc'
+[4.209s] Level 1:colcon.colcon_core.environment:checking '/home/jgsnto/LearnROS/01_ros2_fundamentals/04_messages/src/install/vehicle_speed/lib/python3.10/site-packages'
+[4.209s] Level 1:colcon.colcon_core.shell:create_environment_hook('vehicle_speed', 'pythonpath')
+[4.210s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jgsnto/LearnROS/01_ros2_fundamentals/04_messages/src/install/vehicle_speed/share/vehicle_speed/hook/pythonpath.ps1'
+[4.211s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jgsnto/LearnROS/01_ros2_fundamentals/04_messages/src/install/vehicle_speed/share/vehicle_speed/hook/pythonpath.dsv'
+[4.211s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jgsnto/LearnROS/01_ros2_fundamentals/04_messages/src/install/vehicle_speed/share/vehicle_speed/hook/pythonpath.sh'
+[4.213s] Level 1:colcon.colcon_core.environment:checking '/home/jgsnto/LearnROS/01_ros2_fundamentals/04_messages/src/install/vehicle_speed/bin'
+[4.213s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(vehicle_speed)
+[4.213s] INFO:colcon.colcon_core.shell:Creating package script '/home/jgsnto/LearnROS/01_ros2_fundamentals/04_messages/src/install/vehicle_speed/share/vehicle_speed/package.ps1'
+[4.215s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jgsnto/LearnROS/01_ros2_fundamentals/04_messages/src/install/vehicle_speed/share/vehicle_speed/package.dsv'
+[4.217s] INFO:colcon.colcon_core.shell:Creating package script '/home/jgsnto/LearnROS/01_ros2_fundamentals/04_messages/src/install/vehicle_speed/share/vehicle_speed/package.sh'
+[4.218s] INFO:colcon.colcon_core.shell:Creating package script '/home/jgsnto/LearnROS/01_ros2_fundamentals/04_messages/src/install/vehicle_speed/share/vehicle_speed/package.bash'
+[4.220s] INFO:colcon.colcon_core.shell:Creating package script '/home/jgsnto/LearnROS/01_ros2_fundamentals/04_messages/src/install/vehicle_speed/share/vehicle_speed/package.zsh'
+[4.239s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jgsnto/LearnROS/01_ros2_fundamentals/04_messages/src/install/vehicle_speed/share/colcon-core/packages/vehicle_speed)
+[4.240s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[4.250s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[4.253s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[4.254s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[4.283s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[4.284s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[4.284s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[4.336s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[4.338s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/jgsnto/LearnROS/01_ros2_fundamentals/04_messages/src/install/local_setup.ps1'
+[4.342s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/jgsnto/LearnROS/01_ros2_fundamentals/04_messages/src/install/_local_setup_util_ps1.py'
+[4.348s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/jgsnto/LearnROS/01_ros2_fundamentals/04_messages/src/install/setup.ps1'
+[4.354s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/jgsnto/LearnROS/01_ros2_fundamentals/04_messages/src/install/local_setup.sh'
+[4.355s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/jgsnto/LearnROS/01_ros2_fundamentals/04_messages/src/install/_local_setup_util_sh.py'
+[4.357s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/jgsnto/LearnROS/01_ros2_fundamentals/04_messages/src/install/setup.sh'
+[4.359s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/jgsnto/LearnROS/01_ros2_fundamentals/04_messages/src/install/local_setup.bash'
+[4.360s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/jgsnto/LearnROS/01_ros2_fundamentals/04_messages/src/install/setup.bash'
+[4.361s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/jgsnto/LearnROS/01_ros2_fundamentals/04_messages/src/install/local_setup.zsh'
+[4.362s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/jgsnto/LearnROS/01_ros2_fundamentals/04_messages/src/install/setup.zsh'
