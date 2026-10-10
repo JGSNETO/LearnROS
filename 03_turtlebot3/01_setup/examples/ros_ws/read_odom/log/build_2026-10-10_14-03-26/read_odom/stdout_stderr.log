@@ -1,0 +1,31 @@
+running egg_info
+creating build/read_odom/read_odom.egg-info
+writing build/read_odom/read_odom.egg-info/PKG-INFO
+writing dependency_links to build/read_odom/read_odom.egg-info/dependency_links.txt
+writing entry points to build/read_odom/read_odom.egg-info/entry_points.txt
+writing requirements to build/read_odom/read_odom.egg-info/requires.txt
+writing top-level names to build/read_odom/read_odom.egg-info/top_level.txt
+writing manifest file 'build/read_odom/read_odom.egg-info/SOURCES.txt'
+reading manifest file 'build/read_odom/read_odom.egg-info/SOURCES.txt'
+writing manifest file 'build/read_odom/read_odom.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/jgsnto/LearnROS/read_odom/read_odom/build/read_odom/build/lib/read_odom
+copying read_odom/__init__.py -> /home/jgsnto/LearnROS/read_odom/read_odom/build/read_odom/build/lib/read_odom
+copying read_odom/subscriber.py -> /home/jgsnto/LearnROS/read_odom/read_odom/build/read_odom/build/lib/read_odom
+running install
+running install_lib
+creating /home/jgsnto/LearnROS/read_odom/read_odom/install/read_odom/lib/python3.10/site-packages/read_odom
+copying /home/jgsnto/LearnROS/read_odom/read_odom/build/read_odom/build/lib/read_odom/__init__.py -> /home/jgsnto/LearnROS/read_odom/read_odom/install/read_odom/lib/python3.10/site-packages/read_odom
+copying /home/jgsnto/LearnROS/read_odom/read_odom/build/read_odom/build/lib/read_odom/subscriber.py -> /home/jgsnto/LearnROS/read_odom/read_odom/install/read_odom/lib/python3.10/site-packages/read_odom
+byte-compiling /home/jgsnto/LearnROS/read_odom/read_odom/install/read_odom/lib/python3.10/site-packages/read_odom/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/jgsnto/LearnROS/read_odom/read_odom/install/read_odom/lib/python3.10/site-packages/read_odom/subscriber.py to subscriber.cpython-310.pyc
+running install_data
+creating /home/jgsnto/LearnROS/read_odom/read_odom/install/read_odom/share/ament_index/resource_index/packages
+copying resource/read_odom -> /home/jgsnto/LearnROS/read_odom/read_odom/install/read_odom/share/ament_index/resource_index/packages
+copying package.xml -> /home/jgsnto/LearnROS/read_odom/read_odom/install/read_odom/share/read_odom
+running install_egg_info
+Copying build/read_odom/read_odom.egg-info to /home/jgsnto/LearnROS/read_odom/read_odom/install/read_odom/lib/python3.10/site-packages/read_odom-0.0.0-py3.10.egg-info
+running install_scripts
+Installing subscriber script to /home/jgsnto/LearnROS/read_odom/read_odom/install/read_odom/lib/read_odom
+writing list of installed files to '/home/jgsnto/LearnROS/read_odom/read_odom/build/read_odom/install.log'

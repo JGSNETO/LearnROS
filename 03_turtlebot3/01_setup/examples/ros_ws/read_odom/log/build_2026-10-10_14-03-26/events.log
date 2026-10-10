@@ -1,0 +1,102 @@
+[0.000000] (-) TimerEvent: {}
+[0.004894] (read_odom) JobQueued: {'identifier': 'read_odom', 'dependencies': OrderedDict()}
+[0.004981] (read_odom) JobStarted: {'identifier': 'read_odom'}
+[0.133742] (-) TimerEvent: {}
+[0.234642] (-) TimerEvent: {}
+[0.338730] (-) TimerEvent: {}
+[0.440146] (-) TimerEvent: {}
+[0.542537] (-) TimerEvent: {}
+[0.643965] (-) TimerEvent: {}
+[0.759137] (-) TimerEvent: {}
+[0.860002] (-) TimerEvent: {}
+[0.967914] (-) TimerEvent: {}
+[1.068908] (-) TimerEvent: {}
+[1.172660] (-) TimerEvent: {}
+[1.274772] (-) TimerEvent: {}
+[1.376398] (-) TimerEvent: {}
+[1.480017] (-) TimerEvent: {}
+[1.581799] (-) TimerEvent: {}
+[1.682954] (-) TimerEvent: {}
+[1.783671] (-) TimerEvent: {}
+[1.888279] (-) TimerEvent: {}
+[1.992553] (-) TimerEvent: {}
+[2.101383] (-) TimerEvent: {}
+[2.202348] (-) TimerEvent: {}
+[2.304729] (-) TimerEvent: {}
+[2.406821] (-) TimerEvent: {}
+[2.517353] (-) TimerEvent: {}
+[2.621790] (-) TimerEvent: {}
+[2.733795] (-) TimerEvent: {}
+[2.834866] (-) TimerEvent: {}
+[2.935623] (-) TimerEvent: {}
+[3.036527] (-) TimerEvent: {}
+[3.142106] (-) TimerEvent: {}
+[3.244653] (-) TimerEvent: {}
+[3.353975] (-) TimerEvent: {}
+[3.454771] (-) TimerEvent: {}
+[3.557884] (-) TimerEvent: {}
+[3.658717] (-) TimerEvent: {}
+[3.762049] (-) TimerEvent: {}
+[3.863808] (-) TimerEvent: {}
+[3.965759] (-) TimerEvent: {}
+[4.068132] (-) TimerEvent: {}
+[4.168844] (-) TimerEvent: {}
+[4.271785] (-) TimerEvent: {}
+[4.337466] (read_odom) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', 'build/read_odom', 'build', '--build-base', '/home/jgsnto/LearnROS/read_odom/read_odom/build/read_odom/build', 'install', '--record', '/home/jgsnto/LearnROS/read_odom/read_odom/build/read_odom/install.log', '--install-scripts', '$base/lib/read_odom', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/jgsnto/LearnROS/read_odom/read_odom', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'jgsnto'), ('LC_TIME', 'sv_SE.UTF-8'), ('FONTCONFIG_PATH', '/etc/fonts'), ('GIO_MODULE_DIR', '/home/jgsnto/snap/code/common/.cache/gio-modules'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/snap/code/264/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('GTK_EXE_PREFIX_VSCODE_SNAP_ORIG', ''), ('GDK_BACKEND_VSCODE_SNAP_ORIG', ''), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/jgsnto'), ('CHROME_DESKTOP', 'code.desktop'), ('LOCPATH_VSCODE_SNAP_ORIG', ''), ('OLDPWD', '/home/jgsnto/LearnROS/read_odom'), ('TERM_PROGRAM_VERSION', '1.138.0'), ('DESKTOP_SESSION', 'ubuntu'), ('GTK_PATH', '/snap/code/264/usr/lib/x86_64-linux-gnu/gtk-3.0'), ('XDG_DATA_HOME_VSCODE_SNAP_ORIG', ''), ('GTK_IM_MODULE_FILE', '/home/jgsnto/snap/code/common/.cache/immodules/immodules.cache'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('GSETTINGS_SCHEMA_DIR_VSCODE_SNAP_ORIG', ''), ('VSCODE_GIT_ASKPASS_MAIN', '/snap/code/264/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'sv_SE.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/snap/code/264/usr/share/code/code'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '2755'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=ba2f9fdfabfb32da5a2255246aca1328'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'jgsnto'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_CONFIG_DIRS_VSCODE_SNAP_ORIG', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_SESSION_CLASS', 'user'), ('XDG_DATA_DIRS_VSCODE_SNAP_ORIG', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('USERNAME', 'jgsnto'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('FC_FONTATIONS', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/jgsnto/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/jgsnto-VirtualBox:@/tmp/.ICE-unix/2755,unix/jgsnto-VirtualBox:/tmp/.ICE-unix/2755'), ('GTK_EXE_PREFIX', '/snap/code/264/usr'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'sv_SE.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/d24b3d52_cf15_496b_9995_f09e2a784e8f'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LOCPATH', '/snap/code/264/usr/lib/locale'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'sv_SE.UTF-8'), ('GIO_MODULE_DIR_VSCODE_SNAP_ORIG', ''), ('XDG_DATA_HOME', '/home/jgsnto/snap/code/264/.local/share'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.FN5NW3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-945a2d27b9.sock'), ('GNOME_TERMINAL_SERVICE', ':1.104'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('GSETTINGS_SCHEMA_DIR', '/home/jgsnto/snap/code/264/.local/share/glib-2.0/schemas'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'sv_SE.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GTK_PATH_VSCODE_SNAP_ORIG', ''), ('FONTCONFIG_FILE', '/etc/fonts/fonts.conf'), ('GTK_IM_MODULE_FILE_VSCODE_SNAP_ORIG', ''), ('LC_MEASUREMENT', 'sv_SE.UTF-8'), ('LC_IDENTIFICATION', 'sv_SE.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/jgsnto/LearnROS/read_odom/read_odom/build/read_odom'), ('TURTLEBOT3_MODEL', 'burger'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('GAZEBO_PLUGIN_PATH', ':/opt/ros/humble/lib:/opt/ros/humble/lib'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=ba2f9fdfabfb32da5a2255246aca1328'), ('XDG_DATA_DIRS', '/home/jgsnto/snap/code/264/.local/share:/home/jgsnto/snap/code/264:/snap/code/264/usr/share:/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/jgsnto/LearnROS/read_odom/read_odom/build/read_odom/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jgsnto/LearnROS/read_odom/read_odom/install/read_odom/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'sv_SE.UTF-8'), ('LC_PAPER', 'sv_SE.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800')]), 'shell': False}
+[4.372979] (-) TimerEvent: {}
+[4.489061] (-) TimerEvent: {}
+[4.592891] (-) TimerEvent: {}
+[4.720041] (-) TimerEvent: {}
+[4.822322] (-) TimerEvent: {}
+[4.927868] (-) TimerEvent: {}
+[5.028858] (-) TimerEvent: {}
+[5.132981] (-) TimerEvent: {}
+[5.235833] (-) TimerEvent: {}
+[5.342784] (-) TimerEvent: {}
+[5.445171] (-) TimerEvent: {}
+[5.546705] (-) TimerEvent: {}
+[5.610173] (read_odom) StdoutLine: {'line': b'running egg_info\n'}
+[5.646988] (-) TimerEvent: {}
+[5.699351] (read_odom) StdoutLine: {'line': b'creating build/read_odom/read_odom.egg-info\n'}
+[5.701841] (read_odom) StdoutLine: {'line': b'writing build/read_odom/read_odom.egg-info/PKG-INFO\n'}
+[5.706525] (read_odom) StdoutLine: {'line': b'writing dependency_links to build/read_odom/read_odom.egg-info/dependency_links.txt\n'}
+[5.710032] (read_odom) StdoutLine: {'line': b'writing entry points to build/read_odom/read_odom.egg-info/entry_points.txt\n'}
+[5.710562] (read_odom) StdoutLine: {'line': b'writing requirements to build/read_odom/read_odom.egg-info/requires.txt\n'}
+[5.711839] (read_odom) StdoutLine: {'line': b'writing top-level names to build/read_odom/read_odom.egg-info/top_level.txt\n'}
+[5.712946] (read_odom) StdoutLine: {'line': b"writing manifest file 'build/read_odom/read_odom.egg-info/SOURCES.txt'\n"}
+[5.751077] (-) TimerEvent: {}
+[5.852534] (-) TimerEvent: {}
+[5.900675] (read_odom) StdoutLine: {'line': b"reading manifest file 'build/read_odom/read_odom.egg-info/SOURCES.txt'\n"}
+[5.907303] (read_odom) StdoutLine: {'line': b"writing manifest file 'build/read_odom/read_odom.egg-info/SOURCES.txt'\n"}
+[5.910665] (read_odom) StdoutLine: {'line': b'running build\n'}
+[5.913754] (read_odom) StdoutLine: {'line': b'running build_py\n'}
+[5.914921] (read_odom) StdoutLine: {'line': b'creating /home/jgsnto/LearnROS/read_odom/read_odom/build/read_odom/build/lib/read_odom\n'}
+[5.917250] (read_odom) StdoutLine: {'line': b'copying read_odom/__init__.py -> /home/jgsnto/LearnROS/read_odom/read_odom/build/read_odom/build/lib/read_odom\n'}
+[5.921043] (read_odom) StdoutLine: {'line': b'copying read_odom/subscriber.py -> /home/jgsnto/LearnROS/read_odom/read_odom/build/read_odom/build/lib/read_odom\n'}
+[5.922349] (read_odom) StdoutLine: {'line': b'running install\n'}
+[5.943043] (read_odom) StdoutLine: {'line': b'running install_lib\n'}
+[5.953160] (-) TimerEvent: {}
+[6.047726] (read_odom) StdoutLine: {'line': b'creating /home/jgsnto/LearnROS/read_odom/read_odom/install/read_odom/lib/python3.10/site-packages/read_odom\n'}
+[6.048945] (read_odom) StdoutLine: {'line': b'copying /home/jgsnto/LearnROS/read_odom/read_odom/build/read_odom/build/lib/read_odom/__init__.py -> /home/jgsnto/LearnROS/read_odom/read_odom/install/read_odom/lib/python3.10/site-packages/read_odom\n'}
+[6.053916] (read_odom) StdoutLine: {'line': b'copying /home/jgsnto/LearnROS/read_odom/read_odom/build/read_odom/build/lib/read_odom/subscriber.py -> /home/jgsnto/LearnROS/read_odom/read_odom/install/read_odom/lib/python3.10/site-packages/read_odom\n'}
+[6.054804] (-) TimerEvent: {}
+[6.058181] (read_odom) StdoutLine: {'line': b'byte-compiling /home/jgsnto/LearnROS/read_odom/read_odom/install/read_odom/lib/python3.10/site-packages/read_odom/__init__.py to __init__.cpython-310.pyc\n'}
+[6.058698] (read_odom) StdoutLine: {'line': b'byte-compiling /home/jgsnto/LearnROS/read_odom/read_odom/install/read_odom/lib/python3.10/site-packages/read_odom/subscriber.py to subscriber.cpython-310.pyc\n'}
+[6.058860] (read_odom) StdoutLine: {'line': b'running install_data\n'}
+[6.058999] (read_odom) StdoutLine: {'line': b'creating /home/jgsnto/LearnROS/read_odom/read_odom/install/read_odom/share/ament_index/resource_index/packages\n'}
+[6.063457] (read_odom) StdoutLine: {'line': b'copying resource/read_odom -> /home/jgsnto/LearnROS/read_odom/read_odom/install/read_odom/share/ament_index/resource_index/packages\n'}
+[6.064445] (read_odom) StdoutLine: {'line': b'copying package.xml -> /home/jgsnto/LearnROS/read_odom/read_odom/install/read_odom/share/read_odom\n'}
+[6.064912] (read_odom) StdoutLine: {'line': b'running install_egg_info\n'}
+[6.152681] (read_odom) StdoutLine: {'line': b'Copying build/read_odom/read_odom.egg-info to /home/jgsnto/LearnROS/read_odom/read_odom/install/read_odom/lib/python3.10/site-packages/read_odom-0.0.0-py3.10.egg-info\n'}
+[6.157842] (read_odom) StdoutLine: {'line': b'running install_scripts\n'}
+[6.158247] (-) TimerEvent: {}
+[6.274038] (-) TimerEvent: {}
+[6.386665] (-) TimerEvent: {}
+[6.404909] (read_odom) StdoutLine: {'line': b'Installing subscriber script to /home/jgsnto/LearnROS/read_odom/read_odom/install/read_odom/lib/read_odom\n'}
+[6.414796] (read_odom) StdoutLine: {'line': b"writing list of installed files to '/home/jgsnto/LearnROS/read_odom/read_odom/build/read_odom/install.log'\n"}
+[6.490104] (-) TimerEvent: {}
+[6.516870] (read_odom) CommandEnded: {'returncode': 0}
+[6.595193] (-) TimerEvent: {}
+[6.703993] (-) TimerEvent: {}
+[6.707733] (read_odom) JobEnded: {'identifier': 'read_odom', 'rc': 0}
+[6.712050] (-) EventReactorShutdown: {}

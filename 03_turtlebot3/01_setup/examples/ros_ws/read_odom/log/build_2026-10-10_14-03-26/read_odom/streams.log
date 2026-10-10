@@ -1,0 +1,33 @@
+[4.349s] Invoking command in '/home/jgsnto/LearnROS/read_odom/read_odom': PYTHONPATH=/home/jgsnto/LearnROS/read_odom/read_odom/build/read_odom/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jgsnto/LearnROS/read_odom/read_odom/install/read_odom/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base build/read_odom build --build-base /home/jgsnto/LearnROS/read_odom/read_odom/build/read_odom/build install --record /home/jgsnto/LearnROS/read_odom/read_odom/build/read_odom/install.log --install-scripts $base/lib/read_odom --single-version-externally-managed install_data
+[5.607s] running egg_info
+[5.695s] creating build/read_odom/read_odom.egg-info
+[5.697s] writing build/read_odom/read_odom.egg-info/PKG-INFO
+[5.702s] writing dependency_links to build/read_odom/read_odom.egg-info/dependency_links.txt
+[5.705s] writing entry points to build/read_odom/read_odom.egg-info/entry_points.txt
+[5.706s] writing requirements to build/read_odom/read_odom.egg-info/requires.txt
+[5.707s] writing top-level names to build/read_odom/read_odom.egg-info/top_level.txt
+[5.708s] writing manifest file 'build/read_odom/read_odom.egg-info/SOURCES.txt'
+[5.897s] reading manifest file 'build/read_odom/read_odom.egg-info/SOURCES.txt'
+[5.903s] writing manifest file 'build/read_odom/read_odom.egg-info/SOURCES.txt'
+[5.908s] running build
+[5.909s] running build_py
+[5.910s] creating /home/jgsnto/LearnROS/read_odom/read_odom/build/read_odom/build/lib/read_odom
+[5.916s] copying read_odom/__init__.py -> /home/jgsnto/LearnROS/read_odom/read_odom/build/read_odom/build/lib/read_odom
+[5.916s] copying read_odom/subscriber.py -> /home/jgsnto/LearnROS/read_odom/read_odom/build/read_odom/build/lib/read_odom
+[5.918s] running install
+[5.940s] running install_lib
+[6.043s] creating /home/jgsnto/LearnROS/read_odom/read_odom/install/read_odom/lib/python3.10/site-packages/read_odom
+[6.044s] copying /home/jgsnto/LearnROS/read_odom/read_odom/build/read_odom/build/lib/read_odom/__init__.py -> /home/jgsnto/LearnROS/read_odom/read_odom/install/read_odom/lib/python3.10/site-packages/read_odom
+[6.049s] copying /home/jgsnto/LearnROS/read_odom/read_odom/build/read_odom/build/lib/read_odom/subscriber.py -> /home/jgsnto/LearnROS/read_odom/read_odom/install/read_odom/lib/python3.10/site-packages/read_odom
+[6.054s] byte-compiling /home/jgsnto/LearnROS/read_odom/read_odom/install/read_odom/lib/python3.10/site-packages/read_odom/__init__.py to __init__.cpython-310.pyc
+[6.054s] byte-compiling /home/jgsnto/LearnROS/read_odom/read_odom/install/read_odom/lib/python3.10/site-packages/read_odom/subscriber.py to subscriber.cpython-310.pyc
+[6.054s] running install_data
+[6.054s] creating /home/jgsnto/LearnROS/read_odom/read_odom/install/read_odom/share/ament_index/resource_index/packages
+[6.059s] copying resource/read_odom -> /home/jgsnto/LearnROS/read_odom/read_odom/install/read_odom/share/ament_index/resource_index/packages
+[6.060s] copying package.xml -> /home/jgsnto/LearnROS/read_odom/read_odom/install/read_odom/share/read_odom
+[6.060s] running install_egg_info
+[6.148s] Copying build/read_odom/read_odom.egg-info to /home/jgsnto/LearnROS/read_odom/read_odom/install/read_odom/lib/python3.10/site-packages/read_odom-0.0.0-py3.10.egg-info
+[6.153s] running install_scripts
+[6.400s] Installing subscriber script to /home/jgsnto/LearnROS/read_odom/read_odom/install/read_odom/lib/read_odom
+[6.410s] writing list of installed files to '/home/jgsnto/LearnROS/read_odom/read_odom/build/read_odom/install.log'
+[6.512s] Invoked command in '/home/jgsnto/LearnROS/read_odom/read_odom' returned '0': PYTHONPATH=/home/jgsnto/LearnROS/read_odom/read_odom/build/read_odom/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jgsnto/LearnROS/read_odom/read_odom/install/read_odom/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base build/read_odom build --build-base /home/jgsnto/LearnROS/read_odom/read_odom/build/read_odom/build install --record /home/jgsnto/LearnROS/read_odom/read_odom/build/read_odom/install.log --install-scripts $base/lib/read_odom --single-version-externally-managed install_data

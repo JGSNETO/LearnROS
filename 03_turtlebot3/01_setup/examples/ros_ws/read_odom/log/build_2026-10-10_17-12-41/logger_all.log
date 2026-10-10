@@ -1,0 +1,91 @@
+[0.285s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.285s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=3, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x767e677a04f0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x767e67777fd0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x767e67777fd0>>, mixin_verb=('build',))
+[0.534s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.537s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.537s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.537s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.537s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.539s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.539s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/jgsnto/LearnROS/read_odom/read_odom'
+[0.539s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.541s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.542s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.542s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.542s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.543s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.543s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.543s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.543s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.627s] DEBUG:colcon.colcon_core.package_identification:Package '.' with type 'ros.ament_python' and name 'read_odom'
+[0.627s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.627s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.627s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.628s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.628s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.675s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.675s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.678s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/jgsnto/LearnROS/read_odom/read_odom/install
+[0.682s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 386 installed packages in /opt/ros/humble
+[0.684s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.772s] Level 5:colcon.colcon_core.verb:set package 'read_odom' build argument 'cmake_args' from command line to 'None'
+[0.773s] Level 5:colcon.colcon_core.verb:set package 'read_odom' build argument 'cmake_target' from command line to 'None'
+[0.774s] Level 5:colcon.colcon_core.verb:set package 'read_odom' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.774s] Level 5:colcon.colcon_core.verb:set package 'read_odom' build argument 'cmake_clean_cache' from command line to 'False'
+[0.775s] Level 5:colcon.colcon_core.verb:set package 'read_odom' build argument 'cmake_clean_first' from command line to 'False'
+[0.775s] Level 5:colcon.colcon_core.verb:set package 'read_odom' build argument 'cmake_force_configure' from command line to 'False'
+[0.775s] Level 5:colcon.colcon_core.verb:set package 'read_odom' build argument 'ament_cmake_args' from command line to 'None'
+[0.776s] Level 5:colcon.colcon_core.verb:set package 'read_odom' build argument 'catkin_cmake_args' from command line to 'None'
+[0.776s] Level 5:colcon.colcon_core.verb:set package 'read_odom' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.776s] DEBUG:colcon.colcon_core.verb:Building package 'read_odom' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/jgsnto/LearnROS/read_odom/read_odom/build/read_odom', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/jgsnto/LearnROS/read_odom/read_odom/install/read_odom', 'merge_install': False, 'path': '/home/jgsnto/LearnROS/read_odom/read_odom', 'symlink_install': False, 'test_result_base': None}
+[0.776s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.778s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.781s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/jgsnto/LearnROS/read_odom/read_odom' with build type 'ament_python'
+[0.782s] Level 1:colcon.colcon_core.shell:create_environment_hook('read_odom', 'ament_prefix_path')
+[0.834s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.835s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jgsnto/LearnROS/read_odom/read_odom/install/read_odom/share/read_odom/hook/ament_prefix_path.ps1'
+[0.839s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jgsnto/LearnROS/read_odom/read_odom/install/read_odom/share/read_odom/hook/ament_prefix_path.dsv'
+[0.840s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jgsnto/LearnROS/read_odom/read_odom/install/read_odom/share/read_odom/hook/ament_prefix_path.sh'
+[0.846s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.849s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.117s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/jgsnto/LearnROS/read_odom/read_odom'
+[2.117s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.120s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[4.081s] DEBUG:colcon.colcon_core.task.python.build:Available setuptools commands: egg_info, build_py, install, build_clib, build_scripts, easy_install, extract_messages, bdist_wheel, compile_catalog, build_ext, install_scripts, bdist_rpm, clean, develop, setopt, editable_wheel, update_catalog, install_egg_info, bdist_egg, saveopts, alias, bdist, symlink_data, init_catalog, install_data, dist_info, rotate, check, sdist, bdist_dumb, build, install_headers, install_lib
+[4.089s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jgsnto/LearnROS/read_odom/read_odom': PYTHONPATH=/home/jgsnto/LearnROS/read_odom/read_odom/build/read_odom/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jgsnto/LearnROS/read_odom/read_odom/install/read_odom/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base build/read_odom build --build-base /home/jgsnto/LearnROS/read_odom/read_odom/build/read_odom/build install --record /home/jgsnto/LearnROS/read_odom/read_odom/build/read_odom/install.log --install-scripts $base/lib/read_odom --single-version-externally-managed install_data
+[5.624s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jgsnto/LearnROS/read_odom/read_odom' returned '0': PYTHONPATH=/home/jgsnto/LearnROS/read_odom/read_odom/build/read_odom/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jgsnto/LearnROS/read_odom/read_odom/install/read_odom/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base build/read_odom build --build-base /home/jgsnto/LearnROS/read_odom/read_odom/build/read_odom/build install --record /home/jgsnto/LearnROS/read_odom/read_odom/build/read_odom/install.log --install-scripts $base/lib/read_odom --single-version-externally-managed install_data
+[5.631s] Level 1:colcon.colcon_core.environment:checking '/home/jgsnto/LearnROS/read_odom/read_odom/install/read_odom' for CMake module files
+[5.634s] Level 1:colcon.colcon_core.environment:checking '/home/jgsnto/LearnROS/read_odom/read_odom/install/read_odom' for CMake config files
+[5.640s] Level 1:colcon.colcon_core.environment:checking '/home/jgsnto/LearnROS/read_odom/read_odom/install/read_odom/lib'
+[5.641s] Level 1:colcon.colcon_core.environment:checking '/home/jgsnto/LearnROS/read_odom/read_odom/install/read_odom/bin'
+[5.641s] Level 1:colcon.colcon_core.environment:checking '/home/jgsnto/LearnROS/read_odom/read_odom/install/read_odom/lib/pkgconfig/read_odom.pc'
+[5.642s] Level 1:colcon.colcon_core.environment:checking '/home/jgsnto/LearnROS/read_odom/read_odom/install/read_odom/lib/python3.10/site-packages'
+[5.642s] Level 1:colcon.colcon_core.shell:create_environment_hook('read_odom', 'pythonpath')
+[5.643s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jgsnto/LearnROS/read_odom/read_odom/install/read_odom/share/read_odom/hook/pythonpath.ps1'
+[5.646s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jgsnto/LearnROS/read_odom/read_odom/install/read_odom/share/read_odom/hook/pythonpath.dsv'
+[5.648s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jgsnto/LearnROS/read_odom/read_odom/install/read_odom/share/read_odom/hook/pythonpath.sh'
+[5.651s] Level 1:colcon.colcon_core.environment:checking '/home/jgsnto/LearnROS/read_odom/read_odom/install/read_odom/bin'
+[5.652s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(read_odom)
+[5.653s] INFO:colcon.colcon_core.shell:Creating package script '/home/jgsnto/LearnROS/read_odom/read_odom/install/read_odom/share/read_odom/package.ps1'
+[5.657s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jgsnto/LearnROS/read_odom/read_odom/install/read_odom/share/read_odom/package.dsv'
+[5.685s] INFO:colcon.colcon_core.shell:Creating package script '/home/jgsnto/LearnROS/read_odom/read_odom/install/read_odom/share/read_odom/package.sh'
+[5.696s] INFO:colcon.colcon_core.shell:Creating package script '/home/jgsnto/LearnROS/read_odom/read_odom/install/read_odom/share/read_odom/package.bash'
+[5.706s] INFO:colcon.colcon_core.shell:Creating package script '/home/jgsnto/LearnROS/read_odom/read_odom/install/read_odom/share/read_odom/package.zsh'
+[5.747s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jgsnto/LearnROS/read_odom/read_odom/install/read_odom/share/colcon-core/packages/read_odom)
+[5.751s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[5.752s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[5.752s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[5.752s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[5.776s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[5.777s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[5.777s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[5.857s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[5.858s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/jgsnto/LearnROS/read_odom/read_odom/install/local_setup.ps1'
+[5.861s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/jgsnto/LearnROS/read_odom/read_odom/install/_local_setup_util_ps1.py'
+[5.867s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/jgsnto/LearnROS/read_odom/read_odom/install/setup.ps1'
+[5.870s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/jgsnto/LearnROS/read_odom/read_odom/install/local_setup.sh'
+[5.872s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/jgsnto/LearnROS/read_odom/read_odom/install/_local_setup_util_sh.py'
+[5.873s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/jgsnto/LearnROS/read_odom/read_odom/install/setup.sh'
+[5.876s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/jgsnto/LearnROS/read_odom/read_odom/install/local_setup.bash'
+[5.878s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/jgsnto/LearnROS/read_odom/read_odom/install/setup.bash'
+[5.881s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/jgsnto/LearnROS/read_odom/read_odom/install/local_setup.zsh'
+[5.883s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/jgsnto/LearnROS/read_odom/read_odom/install/setup.zsh'

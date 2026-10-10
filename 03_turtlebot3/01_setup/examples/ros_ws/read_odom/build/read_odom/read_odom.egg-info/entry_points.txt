@@ -1,0 +1,2 @@
+[console_scripts]
+subscriber = read_odom.subscriber:main
