@@ -1,0 +1,5 @@
+  File "/home/jgsnto/LearnROS/03_turtlebot3/01_setup/examples/ros_ws/read_pos/install/read_pos/lib/python3.10/site-packages/read_pos/read_pos.py", line 3
+    from nav_msgs/msg/Odometry import Odometry
+                 ^
+SyntaxError: invalid syntax
+

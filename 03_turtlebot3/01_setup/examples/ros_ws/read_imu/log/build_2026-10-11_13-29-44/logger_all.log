@@ -1,0 +1,90 @@
+[0.432s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.433s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=3, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x78a4f4690310>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x78a4f4663d60>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x78a4f4663d60>>, mixin_verb=('build',))
+[0.611s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.611s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.612s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.612s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.612s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.612s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.614s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/jgsnto/LearnROS/03_turtlebot3/01_setup/examples/ros_ws/read_imu'
+[0.614s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.614s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.614s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.614s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.615s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.615s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.615s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.615s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.615s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.694s] DEBUG:colcon.colcon_core.package_identification:Package '.' with type 'ros.ament_python' and name 'read_odom'
+[0.694s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.694s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.694s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.694s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.694s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.887s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.887s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.936s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 386 installed packages in /opt/ros/humble
+[0.947s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[1.373s] Level 5:colcon.colcon_core.verb:set package 'read_odom' build argument 'cmake_args' from command line to 'None'
+[1.373s] Level 5:colcon.colcon_core.verb:set package 'read_odom' build argument 'cmake_target' from command line to 'None'
+[1.374s] Level 5:colcon.colcon_core.verb:set package 'read_odom' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.374s] Level 5:colcon.colcon_core.verb:set package 'read_odom' build argument 'cmake_clean_cache' from command line to 'False'
+[1.374s] Level 5:colcon.colcon_core.verb:set package 'read_odom' build argument 'cmake_clean_first' from command line to 'False'
+[1.374s] Level 5:colcon.colcon_core.verb:set package 'read_odom' build argument 'cmake_force_configure' from command line to 'False'
+[1.374s] Level 5:colcon.colcon_core.verb:set package 'read_odom' build argument 'ament_cmake_args' from command line to 'None'
+[1.374s] Level 5:colcon.colcon_core.verb:set package 'read_odom' build argument 'catkin_cmake_args' from command line to 'None'
+[1.374s] Level 5:colcon.colcon_core.verb:set package 'read_odom' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.374s] DEBUG:colcon.colcon_core.verb:Building package 'read_odom' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/jgsnto/LearnROS/03_turtlebot3/01_setup/examples/ros_ws/read_imu/build/read_odom', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/jgsnto/LearnROS/03_turtlebot3/01_setup/examples/ros_ws/read_imu/install/read_odom', 'merge_install': False, 'path': '/home/jgsnto/LearnROS/03_turtlebot3/01_setup/examples/ros_ws/read_imu', 'symlink_install': False, 'test_result_base': None}
+[1.377s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[1.386s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[1.390s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/jgsnto/LearnROS/03_turtlebot3/01_setup/examples/ros_ws/read_imu' with build type 'ament_python'
+[1.393s] Level 1:colcon.colcon_core.shell:create_environment_hook('read_odom', 'ament_prefix_path')
+[1.408s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[1.409s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jgsnto/LearnROS/03_turtlebot3/01_setup/examples/ros_ws/read_imu/install/read_odom/share/read_odom/hook/ament_prefix_path.ps1'
+[1.416s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jgsnto/LearnROS/03_turtlebot3/01_setup/examples/ros_ws/read_imu/install/read_odom/share/read_odom/hook/ament_prefix_path.dsv'
+[1.422s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jgsnto/LearnROS/03_turtlebot3/01_setup/examples/ros_ws/read_imu/install/read_odom/share/read_odom/hook/ament_prefix_path.sh'
+[1.433s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.433s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.759s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/jgsnto/LearnROS/03_turtlebot3/01_setup/examples/ros_ws/read_imu'
+[2.760s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.760s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[5.593s] DEBUG:colcon.colcon_core.task.python.build:Available setuptools commands: build, bdist_dumb, egg_info, init_catalog, bdist_egg, develop, sdist, bdist, check, clean, editable_wheel, install_lib, build_py, dist_info, symlink_data, update_catalog, build_ext, build_clib, bdist_wheel, setopt, install_egg_info, extract_messages, install, bdist_rpm, easy_install, rotate, install_headers, build_scripts, alias, install_scripts, install_data, saveopts, compile_catalog
+[5.731s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jgsnto/LearnROS/03_turtlebot3/01_setup/examples/ros_ws/read_imu': PYTHONPATH=/home/jgsnto/LearnROS/03_turtlebot3/01_setup/examples/ros_ws/read_imu/build/read_odom/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jgsnto/LearnROS/03_turtlebot3/01_setup/examples/ros_ws/read_imu/install/read_odom/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base build/read_odom build --build-base /home/jgsnto/LearnROS/03_turtlebot3/01_setup/examples/ros_ws/read_imu/build/read_odom/build install --record /home/jgsnto/LearnROS/03_turtlebot3/01_setup/examples/ros_ws/read_imu/build/read_odom/install.log --install-scripts $base/lib/read_odom --single-version-externally-managed install_data
+[8.091s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jgsnto/LearnROS/03_turtlebot3/01_setup/examples/ros_ws/read_imu' returned '0': PYTHONPATH=/home/jgsnto/LearnROS/03_turtlebot3/01_setup/examples/ros_ws/read_imu/build/read_odom/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jgsnto/LearnROS/03_turtlebot3/01_setup/examples/ros_ws/read_imu/install/read_odom/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base build/read_odom build --build-base /home/jgsnto/LearnROS/03_turtlebot3/01_setup/examples/ros_ws/read_imu/build/read_odom/build install --record /home/jgsnto/LearnROS/03_turtlebot3/01_setup/examples/ros_ws/read_imu/build/read_odom/install.log --install-scripts $base/lib/read_odom --single-version-externally-managed install_data
+[8.104s] Level 1:colcon.colcon_core.environment:checking '/home/jgsnto/LearnROS/03_turtlebot3/01_setup/examples/ros_ws/read_imu/install/read_odom' for CMake module files
+[8.105s] Level 1:colcon.colcon_core.environment:checking '/home/jgsnto/LearnROS/03_turtlebot3/01_setup/examples/ros_ws/read_imu/install/read_odom' for CMake config files
+[8.106s] Level 1:colcon.colcon_core.environment:checking '/home/jgsnto/LearnROS/03_turtlebot3/01_setup/examples/ros_ws/read_imu/install/read_odom/lib'
+[8.107s] Level 1:colcon.colcon_core.environment:checking '/home/jgsnto/LearnROS/03_turtlebot3/01_setup/examples/ros_ws/read_imu/install/read_odom/bin'
+[8.107s] Level 1:colcon.colcon_core.environment:checking '/home/jgsnto/LearnROS/03_turtlebot3/01_setup/examples/ros_ws/read_imu/install/read_odom/lib/pkgconfig/read_odom.pc'
+[8.107s] Level 1:colcon.colcon_core.environment:checking '/home/jgsnto/LearnROS/03_turtlebot3/01_setup/examples/ros_ws/read_imu/install/read_odom/lib/python3.10/site-packages'
+[8.107s] Level 1:colcon.colcon_core.shell:create_environment_hook('read_odom', 'pythonpath')
+[8.108s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jgsnto/LearnROS/03_turtlebot3/01_setup/examples/ros_ws/read_imu/install/read_odom/share/read_odom/hook/pythonpath.ps1'
+[8.119s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jgsnto/LearnROS/03_turtlebot3/01_setup/examples/ros_ws/read_imu/install/read_odom/share/read_odom/hook/pythonpath.dsv'
+[8.121s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jgsnto/LearnROS/03_turtlebot3/01_setup/examples/ros_ws/read_imu/install/read_odom/share/read_odom/hook/pythonpath.sh'
+[8.133s] Level 1:colcon.colcon_core.environment:checking '/home/jgsnto/LearnROS/03_turtlebot3/01_setup/examples/ros_ws/read_imu/install/read_odom/bin'
+[8.134s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(read_odom)
+[8.135s] INFO:colcon.colcon_core.shell:Creating package script '/home/jgsnto/LearnROS/03_turtlebot3/01_setup/examples/ros_ws/read_imu/install/read_odom/share/read_odom/package.ps1'
+[8.145s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jgsnto/LearnROS/03_turtlebot3/01_setup/examples/ros_ws/read_imu/install/read_odom/share/read_odom/package.dsv'
+[8.150s] INFO:colcon.colcon_core.shell:Creating package script '/home/jgsnto/LearnROS/03_turtlebot3/01_setup/examples/ros_ws/read_imu/install/read_odom/share/read_odom/package.sh'
+[8.153s] INFO:colcon.colcon_core.shell:Creating package script '/home/jgsnto/LearnROS/03_turtlebot3/01_setup/examples/ros_ws/read_imu/install/read_odom/share/read_odom/package.bash'
+[8.163s] INFO:colcon.colcon_core.shell:Creating package script '/home/jgsnto/LearnROS/03_turtlebot3/01_setup/examples/ros_ws/read_imu/install/read_odom/share/read_odom/package.zsh'
+[8.210s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jgsnto/LearnROS/03_turtlebot3/01_setup/examples/ros_ws/read_imu/install/read_odom/share/colcon-core/packages/read_odom)
+[8.214s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[8.215s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[8.215s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[8.215s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[8.249s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[8.249s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[8.249s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[8.401s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[8.401s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/jgsnto/LearnROS/03_turtlebot3/01_setup/examples/ros_ws/read_imu/install/local_setup.ps1'
+[8.408s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/jgsnto/LearnROS/03_turtlebot3/01_setup/examples/ros_ws/read_imu/install/_local_setup_util_ps1.py'
+[8.429s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/jgsnto/LearnROS/03_turtlebot3/01_setup/examples/ros_ws/read_imu/install/setup.ps1'
+[8.432s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/jgsnto/LearnROS/03_turtlebot3/01_setup/examples/ros_ws/read_imu/install/local_setup.sh'
+[8.438s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/jgsnto/LearnROS/03_turtlebot3/01_setup/examples/ros_ws/read_imu/install/_local_setup_util_sh.py'
+[8.443s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/jgsnto/LearnROS/03_turtlebot3/01_setup/examples/ros_ws/read_imu/install/setup.sh'
+[8.463s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/jgsnto/LearnROS/03_turtlebot3/01_setup/examples/ros_ws/read_imu/install/local_setup.bash'
+[8.469s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/jgsnto/LearnROS/03_turtlebot3/01_setup/examples/ros_ws/read_imu/install/setup.bash'
+[8.474s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/jgsnto/LearnROS/03_turtlebot3/01_setup/examples/ros_ws/read_imu/install/local_setup.zsh'
+[8.485s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/jgsnto/LearnROS/03_turtlebot3/01_setup/examples/ros_ws/read_imu/install/setup.zsh'

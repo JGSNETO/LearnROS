@@ -1,0 +1,2 @@
+[console_scripts]
+subscriber = read_pos.read_pos:main

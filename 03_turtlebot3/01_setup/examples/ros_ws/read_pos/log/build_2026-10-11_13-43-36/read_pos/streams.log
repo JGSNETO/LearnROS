@@ -1,0 +1,29 @@
+[1.827s] Invoking command in '/home/jgsnto/LearnROS/03_turtlebot3/01_setup/examples/ros_ws/read_pos': PYTHONPATH=/home/jgsnto/LearnROS/03_turtlebot3/01_setup/examples/ros_ws/read_pos/build/read_pos/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jgsnto/LearnROS/03_turtlebot3/01_setup/examples/ros_ws/read_pos/install/read_pos/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base build/read_pos build --build-base /home/jgsnto/LearnROS/03_turtlebot3/01_setup/examples/ros_ws/read_pos/build/read_pos/build install --record /home/jgsnto/LearnROS/03_turtlebot3/01_setup/examples/ros_ws/read_pos/build/read_pos/install.log --install-scripts $base/lib/read_pos --single-version-externally-managed install_data
+[3.167s] running egg_info
+[3.254s] writing build/read_pos/read_pos.egg-info/PKG-INFO
+[3.258s] writing dependency_links to build/read_pos/read_pos.egg-info/dependency_links.txt
+[3.266s] writing entry points to build/read_pos/read_pos.egg-info/entry_points.txt
+[3.266s] writing requirements to build/read_pos/read_pos.egg-info/requires.txt
+[3.266s] writing top-level names to build/read_pos/read_pos.egg-info/top_level.txt
+[3.436s] reading manifest file 'build/read_pos/read_pos.egg-info/SOURCES.txt'
+[3.449s] writing manifest file 'build/read_pos/read_pos.egg-info/SOURCES.txt'
+[3.453s] running build
+[3.454s] running build_py
+[3.456s] copying read_pos/read_pos.py -> /home/jgsnto/LearnROS/03_turtlebot3/01_setup/examples/ros_ws/read_pos/build/read_pos/build/lib/read_pos
+[3.457s] running install
+[3.469s] running install_lib
+[3.558s] copying /home/jgsnto/LearnROS/03_turtlebot3/01_setup/examples/ros_ws/read_pos/build/read_pos/build/lib/read_pos/read_pos.py -> /home/jgsnto/LearnROS/03_turtlebot3/01_setup/examples/ros_ws/read_pos/install/read_pos/lib/python3.10/site-packages/read_pos
+[3.561s] byte-compiling /home/jgsnto/LearnROS/03_turtlebot3/01_setup/examples/ros_ws/read_pos/install/read_pos/lib/python3.10/site-packages/read_pos/read_pos.py to read_pos.cpython-310.pyc
+[3.561s] running install_data
+[3.562s] running install_egg_info
+[3.573s]   File "/home/jgsnto/LearnROS/03_turtlebot3/01_setup/examples/ros_ws/read_pos/install/read_pos/lib/python3.10/site-packages/read_pos/read_pos.py", line 3
+[3.573s]     from nav_msgs/msg/Odometry import Odometry
+[3.574s]                  ^
+[3.574s] SyntaxError: invalid syntax
+[3.574s] 
+[3.634s] removing '/home/jgsnto/LearnROS/03_turtlebot3/01_setup/examples/ros_ws/read_pos/install/read_pos/lib/python3.10/site-packages/read_pos-0.0.0-py3.10.egg-info' (and everything under it)
+[3.634s] Copying build/read_pos/read_pos.egg-info to /home/jgsnto/LearnROS/03_turtlebot3/01_setup/examples/ros_ws/read_pos/install/read_pos/lib/python3.10/site-packages/read_pos-0.0.0-py3.10.egg-info
+[3.649s] running install_scripts
+[3.812s] Installing subscriber script to /home/jgsnto/LearnROS/03_turtlebot3/01_setup/examples/ros_ws/read_pos/install/read_pos/lib/read_pos
+[3.812s] writing list of installed files to '/home/jgsnto/LearnROS/03_turtlebot3/01_setup/examples/ros_ws/read_pos/build/read_pos/install.log'
+[3.928s] Invoked command in '/home/jgsnto/LearnROS/03_turtlebot3/01_setup/examples/ros_ws/read_pos' returned '0': PYTHONPATH=/home/jgsnto/LearnROS/03_turtlebot3/01_setup/examples/ros_ws/read_pos/build/read_pos/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jgsnto/LearnROS/03_turtlebot3/01_setup/examples/ros_ws/read_pos/install/read_pos/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base build/read_pos build --build-base /home/jgsnto/LearnROS/03_turtlebot3/01_setup/examples/ros_ws/read_pos/build/read_pos/build install --record /home/jgsnto/LearnROS/03_turtlebot3/01_setup/examples/ros_ws/read_pos/build/read_pos/install.log --install-scripts $base/lib/read_pos --single-version-externally-managed install_data
