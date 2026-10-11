@@ -1,0 +1,22 @@
+running egg_info
+writing build/read_pos/read_pos.egg-info/PKG-INFO
+writing dependency_links to build/read_pos/read_pos.egg-info/dependency_links.txt
+writing entry points to build/read_pos/read_pos.egg-info/entry_points.txt
+writing requirements to build/read_pos/read_pos.egg-info/requires.txt
+writing top-level names to build/read_pos/read_pos.egg-info/top_level.txt
+reading manifest file 'build/read_pos/read_pos.egg-info/SOURCES.txt'
+writing manifest file 'build/read_pos/read_pos.egg-info/SOURCES.txt'
+running build
+running build_py
+copying read_pos/read_pos.py -> /home/jgsnto/LearnROS/03_turtlebot3/01_setup/examples/ros_ws/read_pos/build/read_pos/build/lib/read_pos
+running install
+running install_lib
+copying /home/jgsnto/LearnROS/03_turtlebot3/01_setup/examples/ros_ws/read_pos/build/read_pos/build/lib/read_pos/read_pos.py -> /home/jgsnto/LearnROS/03_turtlebot3/01_setup/examples/ros_ws/read_pos/install/read_pos/lib/python3.10/site-packages/read_pos
+byte-compiling /home/jgsnto/LearnROS/03_turtlebot3/01_setup/examples/ros_ws/read_pos/install/read_pos/lib/python3.10/site-packages/read_pos/read_pos.py to read_pos.cpython-310.pyc
+running install_data
+running install_egg_info
+removing '/home/jgsnto/LearnROS/03_turtlebot3/01_setup/examples/ros_ws/read_pos/install/read_pos/lib/python3.10/site-packages/read_pos-0.0.0-py3.10.egg-info' (and everything under it)
+Copying build/read_pos/read_pos.egg-info to /home/jgsnto/LearnROS/03_turtlebot3/01_setup/examples/ros_ws/read_pos/install/read_pos/lib/python3.10/site-packages/read_pos-0.0.0-py3.10.egg-info
+running install_scripts
+Installing subscriber script to /home/jgsnto/LearnROS/03_turtlebot3/01_setup/examples/ros_ws/read_pos/install/read_pos/lib/read_pos
+writing list of installed files to '/home/jgsnto/LearnROS/03_turtlebot3/01_setup/examples/ros_ws/read_pos/build/read_pos/install.log'

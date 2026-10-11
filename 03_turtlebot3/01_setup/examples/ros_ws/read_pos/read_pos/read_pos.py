@@ -20,13 +20,20 @@ class ReadPos(Node):
 
         position = message.pose.pose.position
         quaternion =  message.pose.pose.orientation
+        linear_velocity = message.twist.twist.linear
+        angular_velocity = message.twist.twist.angular
 
         self.get_logger().info(
-            f"\n"
-            f"Orientation on X: {quaternion.x:0.2f}"
-            f"Orientation on y: {quaternion.y:0.2f}"
-            f"Orientation on z: {quaternion.z:0.2f}"
+            f"\n### ORIENTATION ###\n"
+            f"Orientation on X: {quaternion.x}\n"
+            f"Orientation on y: {quaternion.y}\n"
+            f"Orientation on z: {quaternion.z}\n"
+            f"### Linear Velocity ###\n"
+            f"Linear Velocity on X: {linear_velocity.x}\n"
+            f"Linear Velocity on Y: {linear_velocity.y}\n"
+            f"Linear Velocity on Z: {linear_velocity.z}\n"
         )
+
 
 def main(args = None):
 

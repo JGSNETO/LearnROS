@@ -1,0 +1,24 @@
+[6.046s] Invoking command in '/home/jgsnto/LearnROS/03_turtlebot3/01_setup/examples/ros_ws/read_pos': PYTHONPATH=/home/jgsnto/LearnROS/03_turtlebot3/01_setup/examples/ros_ws/read_pos/build/read_pos/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jgsnto/LearnROS/03_turtlebot3/01_setup/examples/ros_ws/read_pos/install/read_pos/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base build/read_pos build --build-base /home/jgsnto/LearnROS/03_turtlebot3/01_setup/examples/ros_ws/read_pos/build/read_pos/build install --record /home/jgsnto/LearnROS/03_turtlebot3/01_setup/examples/ros_ws/read_pos/build/read_pos/install.log --install-scripts $base/lib/read_pos --single-version-externally-managed install_data
+[7.236s] running egg_info
+[7.409s] writing build/read_pos/read_pos.egg-info/PKG-INFO
+[7.415s] writing dependency_links to build/read_pos/read_pos.egg-info/dependency_links.txt
+[7.420s] writing entry points to build/read_pos/read_pos.egg-info/entry_points.txt
+[7.426s] writing requirements to build/read_pos/read_pos.egg-info/requires.txt
+[7.426s] writing top-level names to build/read_pos/read_pos.egg-info/top_level.txt
+[7.627s] reading manifest file 'build/read_pos/read_pos.egg-info/SOURCES.txt'
+[7.646s] writing manifest file 'build/read_pos/read_pos.egg-info/SOURCES.txt'
+[7.649s] running build
+[7.650s] running build_py
+[7.653s] copying read_pos/read_pos.py -> /home/jgsnto/LearnROS/03_turtlebot3/01_setup/examples/ros_ws/read_pos/build/read_pos/build/lib/read_pos
+[7.653s] running install
+[7.670s] running install_lib
+[7.750s] copying /home/jgsnto/LearnROS/03_turtlebot3/01_setup/examples/ros_ws/read_pos/build/read_pos/build/lib/read_pos/read_pos.py -> /home/jgsnto/LearnROS/03_turtlebot3/01_setup/examples/ros_ws/read_pos/install/read_pos/lib/python3.10/site-packages/read_pos
+[7.754s] byte-compiling /home/jgsnto/LearnROS/03_turtlebot3/01_setup/examples/ros_ws/read_pos/install/read_pos/lib/python3.10/site-packages/read_pos/read_pos.py to read_pos.cpython-310.pyc
+[7.761s] running install_data
+[7.762s] running install_egg_info
+[7.849s] removing '/home/jgsnto/LearnROS/03_turtlebot3/01_setup/examples/ros_ws/read_pos/install/read_pos/lib/python3.10/site-packages/read_pos-0.0.0-py3.10.egg-info' (and everything under it)
+[7.855s] Copying build/read_pos/read_pos.egg-info to /home/jgsnto/LearnROS/03_turtlebot3/01_setup/examples/ros_ws/read_pos/install/read_pos/lib/python3.10/site-packages/read_pos-0.0.0-py3.10.egg-info
+[7.862s] running install_scripts
+[7.983s] Installing subscriber script to /home/jgsnto/LearnROS/03_turtlebot3/01_setup/examples/ros_ws/read_pos/install/read_pos/lib/read_pos
+[8.030s] writing list of installed files to '/home/jgsnto/LearnROS/03_turtlebot3/01_setup/examples/ros_ws/read_pos/build/read_pos/install.log'
+[8.166s] Invoked command in '/home/jgsnto/LearnROS/03_turtlebot3/01_setup/examples/ros_ws/read_pos' returned '0': PYTHONPATH=/home/jgsnto/LearnROS/03_turtlebot3/01_setup/examples/ros_ws/read_pos/build/read_pos/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jgsnto/LearnROS/03_turtlebot3/01_setup/examples/ros_ws/read_pos/install/read_pos/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base build/read_pos build --build-base /home/jgsnto/LearnROS/03_turtlebot3/01_setup/examples/ros_ws/read_pos/build/read_pos/build install --record /home/jgsnto/LearnROS/03_turtlebot3/01_setup/examples/ros_ws/read_pos/build/read_pos/install.log --install-scripts $base/lib/read_pos --single-version-externally-managed install_data

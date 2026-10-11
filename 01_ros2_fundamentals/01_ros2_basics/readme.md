@@ -546,6 +546,480 @@ ros2 --help
 
 will become one of your most frequently used commands.
 
+# ROS 2 Command Reference
+
+A practical reference for ROS 2 fundamentals, package management, nodes, topics, messages, and TurtleBot3.
+
+**Environment:** ROS 2 Humble · Ubuntu · TurtleBot3 · Gazebo Classic
+
+---
+
+## 1. ROS 2 Environment
+
+### Source ROS 2
+
+Run this in every new terminal:
+
+    source /opt/ros/humble/setup.bash
+
+### Source a workspace
+
+After building a workspace:
+
+    source install/setup.bash
+
+### Check the ROS distribution
+
+    echo $ROS_DISTRO
+
+---
+
+## 2. ROS 2 Help
+
+Display available ROS 2 commands:
+
+    ros2
+
+Get help for a specific command:
+
+    ros2 node --help
+    ros2 topic --help
+    ros2 pkg --help
+    ros2 interface --help
+
+---
+
+## 3. Packages
+
+### List installed packages
+
+    ros2 pkg list
+
+### Find TurtleBot3 packages
+
+    ros2 pkg list | grep turtlebot3
+
+### Find a package's installation directory
+
+    ros2 pkg prefix turtlebot3_gazebo
+
+### List package executables
+
+    ros2 pkg executables turtlebot3_gazebo
+    ros2 pkg executables turtlebot3_teleop
+    ros2 pkg executables read_pos
+
+### Run an executable
+
+    ros2 run <package_name> <executable_name>
+
+Examples:
+
+    ros2 run turtlebot3_teleop teleop_keyboard
+    ros2 run read_pos subscriber
+
+**Important:** Executables are not the same as nodes. An executable can create one or more ROS 2 nodes.
+
+---
+
+## 4. Create a Python Package
+
+Create a Python package with `rclpy`:
+
+    ros2 pkg create my_package --build-type ament_python --dependencies rclpy
+
+Create a package for reading odometry:
+
+    ros2 pkg create read_pos --build-type ament_python --dependencies rclpy nav_msgs
+
+Create a package for reading IMU data:
+
+    ros2 pkg create imu_reader --build-type ament_python --dependencies rclpy sensor_msgs
+
+Run these commands from the `src` directory of your workspace when following the standard ROS 2 workspace structure.
+
+---
+
+## 5. Build a Workspace
+
+Navigate to the workspace root, which contains the `src` directory:
+
+    cd ~/LearnROS/<workspace>
+
+Source ROS 2:
+
+    source /opt/ros/humble/setup.bash
+
+Build all packages:
+
+    colcon build
+
+Build with symlink installation:
+
+    colcon build --symlink-install
+
+Build one package:
+
+    colcon build --packages-select read_pos
+
+Build a package and its dependencies:
+
+    colcon build --packages-up-to read_pos
+
+Source the workspace:
+
+    source install/setup.bash
+
+### Clean generated build files
+
+From the correct workspace root:
+
+    rm -rf build install log
+    colcon build --symlink-install
+    source install/setup.bash
+
+**Warning:** This removes the generated `build`, `install`, and `log` directories in the current directory. Verify your location first.
+
+---
+
+## 6. Nodes
+
+### List running nodes
+
+    ros2 node list
+
+### Inspect a node
+
+    ros2 node info /pos_subscriber
+
+The node name comes from its constructor:
+
+    super().__init__('pos_subscriber')
+
+A node appears in the list only while it is running and discoverable.
+
+---
+
+## 7. Topics
+
+### List topics
+
+    ros2 topic list
+
+### List topics with message types
+
+    ros2 topic list -t
+
+### Inspect a topic's type
+
+    ros2 topic type /odom
+
+### Inspect publishers and subscribers
+
+    ros2 topic info /odom
+
+Display detailed endpoint information:
+
+    ros2 topic info /odom --verbose
+
+### Read messages continuously
+
+    ros2 topic echo /odom
+
+Read one message:
+
+    ros2 topic echo /odom --once
+
+### Measure publishing frequency
+
+    ros2 topic hz /odom
+
+### Measure bandwidth
+
+    ros2 topic bw /odom
+
+### Search for common robot topics
+
+    ros2 topic list | grep -E 'odom|imu|scan|cmd_vel'
+
+---
+
+## 8. Messages and Interfaces
+
+### Inspect a message definition
+
+    ros2 interface show nav_msgs/msg/Odometry
+
+    ros2 interface show geometry_msgs/msg/Twist
+
+    ros2 interface show sensor_msgs/msg/Imu
+
+    ros2 interface show sensor_msgs/msg/LaserScan
+
+### Search available interfaces
+
+    ros2 interface list | grep nav_msgs
+
+    ros2 interface list | grep Odometry
+
+### Import messages in Python
+
+    from nav_msgs.msg import Odometry
+    from geometry_msgs.msg import Twist
+    from sensor_msgs.msg import Imu
+
+The ROS 2 CLI uses slash notation, such as `nav_msgs/msg/Odometry`. Python imports use dots, such as `from nav_msgs.msg import Odometry`.
+
+### Read odometry fields
+
+Position:
+
+    message.pose.pose.position.x
+    message.pose.pose.position.y
+    message.pose.pose.position.z
+
+Orientation quaternion:
+
+    message.pose.pose.orientation.x
+    message.pose.pose.orientation.y
+    message.pose.pose.orientation.z
+    message.pose.pose.orientation.w
+
+Linear and angular velocity:
+
+    message.twist.twist.linear.x
+    message.twist.twist.angular.z
+
+---
+
+## 9. Services
+
+### List available services
+
+    ros2 service list
+
+### Inspect a service type
+
+    ros2 service type /service_name
+
+### Inspect a service interface
+
+    ros2 interface show <service_type>
+
+Available services depend on the nodes currently running.
+
+---
+
+## 10. Actions
+
+### List available actions
+
+    ros2 action list
+
+### Inspect an action type
+
+    ros2 action type /action_name
+
+Actions are useful for longer-running tasks that provide feedback and a result, such as navigation.
+
+---
+
+## 11. Parameters
+
+### List node parameters
+
+    ros2 param list /node_name
+
+### Read a parameter
+
+    ros2 param get /node_name parameter_name
+
+### Set a parameter
+
+    ros2 param set /node_name parameter_name value
+
+### Save node parameters
+
+    ros2 param dump /node_name
+
+Parameter names and runtime configurability depend on the node.
+
+---
+
+## 12. TF2 Frames
+
+### Find TF topics
+
+    ros2 topic list | grep tf
+
+### Inspect transforms
+
+    ros2 topic echo /tf
+    ros2 topic echo /tf_static
+
+### Generate a frame diagram
+
+If the TF2 tools are installed:
+
+    ros2 run tf2_tools view_frames
+
+### Inspect a transform
+
+If the TF2 tools are installed:
+
+    ros2 run tf2_ros tf2_echo odom base_link
+
+The example checks the transform between `odom` and `base_link`. Actual frame names depend on the robot configuration.
+
+---
+
+## 13. TurtleBot3 and Gazebo
+
+### Set the robot model
+
+    export TURTLEBOT3_MODEL=burger
+
+### Launch the simulation
+
+    ros2 launch turtlebot3_gazebo turtlebot3_world.launch.py
+
+### Start keyboard teleoperation
+
+Run this in another terminal:
+
+    source /opt/ros/humble/setup.bash
+    export TURTLEBOT3_MODEL=burger
+    ros2 run turtlebot3_teleop teleop_keyboard
+
+### Inspect odometry
+
+    ros2 topic type /odom
+    ros2 topic echo /odom --once
+
+### Inspect velocity commands
+
+    ros2 topic echo /cmd_vel
+
+### Find sensor topics
+
+    ros2 topic list | grep -E 'scan|imu'
+
+Common topics include:
+
+- `/odom` — odometry
+- `/cmd_vel` — velocity commands
+- `/scan` — laser scan data
+- `/imu` — inertial measurement unit data
+
+Topic availability and names depend on the running simulation and its configuration. Verify them with `ros2 topic list`.
+
+---
+
+## 14. Inspect Installed Package Files
+
+### Find a package's installation prefix
+
+    ros2 pkg prefix turtlebot3_gazebo
+
+### List installed package files
+
+    find "$(ros2 pkg prefix turtlebot3_gazebo)/share/turtlebot3_gazebo" -type f | sort
+
+### Find installed launch files
+
+    find "$(ros2 pkg prefix turtlebot3_gazebo)/share/turtlebot3_gazebo" -type f -name '*.launch.py'
+
+### List Python source files
+
+From a package root:
+
+    find read_pos -type f -name '*.py'
+
+### Display a source file
+
+    cat read_pos/read_pos.py
+
+File paths depend on the package's directory structure.
+
+---
+
+## 15. Troubleshooting
+
+### Check the ROS distribution
+
+    echo $ROS_DISTRO
+
+### Check whether a package is discoverable
+
+    ros2 pkg list | grep '^read_pos$'
+
+### Check the registered executable
+
+    ros2 pkg executables read_pos
+
+### Check whether odometry is available
+
+    ros2 topic list | grep '/odom'
+
+### Read one odometry message
+
+    ros2 topic echo /odom --once
+
+### Source ROS 2 and the workspace
+
+    source /opt/ros/humble/setup.bash
+    source ~/LearnROS/<workspace>/install/setup.bash
+
+### Check Python entry points
+
+A typical `setup.py` console script entry looks like this:
+
+    entry_points={
+        'console_scripts': [
+            'subscriber = read_pos.read_pos:main',
+        ],
+    },
+
+The module path must match the actual Python file, and the specified `main` function must exist.
+
+For example, `read_pos/read_pos.py` containing `def main(args=None):` matches `read_pos.read_pos:main`.
+
+---
+
+## 16. Quick Reference
+
+| Task | Command |
+|---|---|
+| List packages | `ros2 pkg list` |
+| List executables | `ros2 pkg executables <package>` |
+| Run executable | `ros2 run <package> <executable>` |
+| List running nodes | `ros2 node list` |
+| Inspect node | `ros2 node info <node>` |
+| List topics | `ros2 topic list` |
+| Show topic types | `ros2 topic list -t` |
+| Inspect topic type | `ros2 topic type <topic>` |
+| Read topic messages | `ros2 topic echo <topic>` |
+| Inspect topic endpoints | `ros2 topic info <topic>` |
+| Show message definition | `ros2 interface show <type>` |
+| List services | `ros2 service list` |
+| List actions | `ros2 action list` |
+| Build workspace | `colcon build --symlink-install` |
+| Source workspace | `source install/setup.bash` |
+| Launch TurtleBot3 | `ros2 launch turtlebot3_gazebo turtlebot3_world.launch.py` |
+| Start keyboard control | `ros2 run turtlebot3_teleop teleop_keyboard` |
+
+---
+
+## Suggested Workflow
+
+1. Source ROS 2 and the workspace.
+2. Launch the simulation or required nodes.
+3. Use `ros2 node list` and `ros2 topic list` to discover the running ROS graph.
+4. Use `ros2 node info`, `ros2 topic info`, and `ros2 interface show` to inspect interfaces.
+5. Build your package and source the workspace.
+6. Run your executable using `ros2 run`.
+7. Use `ros2 topic echo` to verify that messages are being published and received.
+
 ---
 
 # ⏭️ Next Topic
