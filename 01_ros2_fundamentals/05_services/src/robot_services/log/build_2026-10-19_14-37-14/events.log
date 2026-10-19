@@ -1,0 +1,90 @@
+[0.000000] (-) TimerEvent: {}
+[0.000331] (robot_services) JobQueued: {'identifier': 'robot_services', 'dependencies': OrderedDict()}
+[0.000415] (robot_services) JobStarted: {'identifier': 'robot_services'}
+[0.097360] (-) TimerEvent: {}
+[0.199553] (-) TimerEvent: {}
+[0.301182] (-) TimerEvent: {}
+[0.402076] (-) TimerEvent: {}
+[0.504642] (-) TimerEvent: {}
+[0.605865] (-) TimerEvent: {}
+[0.707658] (-) TimerEvent: {}
+[0.826231] (-) TimerEvent: {}
+[0.931817] (-) TimerEvent: {}
+[1.068613] (-) TimerEvent: {}
+[1.170790] (-) TimerEvent: {}
+[1.297903] (-) TimerEvent: {}
+[1.403025] (-) TimerEvent: {}
+[1.504079] (-) TimerEvent: {}
+[1.605847] (-) TimerEvent: {}
+[1.707031] (-) TimerEvent: {}
+[1.808929] (-) TimerEvent: {}
+[1.910741] (-) TimerEvent: {}
+[2.012081] (-) TimerEvent: {}
+[2.114787] (-) TimerEvent: {}
+[2.216574] (-) TimerEvent: {}
+[2.317662] (-) TimerEvent: {}
+[2.419700] (-) TimerEvent: {}
+[2.520984] (-) TimerEvent: {}
+[2.622685] (-) TimerEvent: {}
+[2.724269] (-) TimerEvent: {}
+[2.826579] (-) TimerEvent: {}
+[2.927860] (-) TimerEvent: {}
+[3.029824] (-) TimerEvent: {}
+[3.131853] (-) TimerEvent: {}
+[3.177680] (robot_services) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', 'build/robot_services', 'build', '--build-base', '/home/jgsnto/LearnROS/01_ros2_fundamentals/05_services/src/robot_services/build/robot_services/build', 'install', '--record', '/home/jgsnto/LearnROS/01_ros2_fundamentals/05_services/src/robot_services/build/robot_services/install.log', '--install-scripts', '$base/lib/robot_services', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/jgsnto/LearnROS/01_ros2_fundamentals/05_services/src/robot_services', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'jgsnto'), ('LC_TIME', 'sv_SE.UTF-8'), ('FONTCONFIG_PATH', '/etc/fonts'), ('GIO_MODULE_DIR', '/home/jgsnto/snap/code/common/.cache/gio-modules'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/snap/code/268/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('GTK_EXE_PREFIX_VSCODE_SNAP_ORIG', ''), ('GDK_BACKEND_VSCODE_SNAP_ORIG', ''), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/jgsnto'), ('CHROME_DESKTOP', 'code_code.desktop'), ('LOCPATH_VSCODE_SNAP_ORIG', ''), ('OLDPWD', '/home/jgsnto/LearnROS/01_ros2_fundamentals/05_services/src/robot_services/robot_services'), ('TERM_PROGRAM_VERSION', '1.141.0'), ('DESKTOP_SESSION', 'ubuntu'), ('GTK_PATH', '/snap/code/268/usr/lib/x86_64-linux-gnu/gtk-3.0'), ('GTK_IM_MODULE_FILE', '/home/jgsnto/snap/code/common/.cache/immodules/immodules.cache'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('GSETTINGS_SCHEMA_DIR_VSCODE_SNAP_ORIG', ''), ('VSCODE_GIT_ASKPASS_MAIN', '/snap/code/268/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'sv_SE.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/snap/code/268/usr/share/code/code'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '2739'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=e54c0e19259f2ac00d8fde4f6ad60b36'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'jgsnto'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_CONFIG_DIRS_VSCODE_SNAP_ORIG', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_SESSION_CLASS', 'user'), ('XDG_DATA_DIRS_VSCODE_SNAP_ORIG', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('USERNAME', 'jgsnto'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('FC_FONTATIONS', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/jgsnto/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/jgsnto-VirtualBox:@/tmp/.ICE-unix/2739,unix/jgsnto-VirtualBox:/tmp/.ICE-unix/2739'), ('GTK_EXE_PREFIX', '/snap/code/268/usr'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'sv_SE.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/268b6d80_0c11_4ace_bfe4_a7c1eb3a1f5a'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LOCPATH', '/snap/code/268/usr/lib/locale'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'sv_SE.UTF-8'), ('GIO_MODULE_DIR_VSCODE_SNAP_ORIG', ''), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.97YAX3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-945a2d27b9.sock'), ('GNOME_TERMINAL_SERVICE', ':1.103'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('GSETTINGS_SCHEMA_DIR', '/home/jgsnto/snap/code/268/.local/share/glib-2.0/schemas'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'sv_SE.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GTK_PATH_VSCODE_SNAP_ORIG', ''), ('FONTCONFIG_FILE', '/etc/fonts/fonts.conf'), ('GTK_IM_MODULE_FILE_VSCODE_SNAP_ORIG', ''), ('LC_MEASUREMENT', 'sv_SE.UTF-8'), ('LC_IDENTIFICATION', 'sv_SE.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/jgsnto/LearnROS/01_ros2_fundamentals/05_services/src/robot_services/build/robot_services'), ('TURTLEBOT3_MODEL', 'burger'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('GAZEBO_PLUGIN_PATH', ':/opt/ros/humble/lib:/opt/ros/humble/lib'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=e54c0e19259f2ac00d8fde4f6ad60b36'), ('XDG_DATA_DIRS', '/home/jgsnto/snap/code/268/.local/share:/home/jgsnto/snap/code/268:/snap/code/268/usr/share:/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/jgsnto/LearnROS/01_ros2_fundamentals/05_services/src/robot_services/build/robot_services/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jgsnto/LearnROS/01_ros2_fundamentals/05_services/src/robot_services/install/robot_services/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'sv_SE.UTF-8'), ('LC_PAPER', 'sv_SE.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800')]), 'shell': False}
+[3.232610] (-) TimerEvent: {}
+[3.333477] (-) TimerEvent: {}
+[3.435587] (-) TimerEvent: {}
+[3.536814] (-) TimerEvent: {}
+[3.637579] (-) TimerEvent: {}
+[3.738132] (-) TimerEvent: {}
+[3.838628] (-) TimerEvent: {}
+[3.918605] (robot_services) StdoutLine: {'line': b'running egg_info\n'}
+[3.940670] (-) TimerEvent: {}
+[3.963760] (robot_services) StdoutLine: {'line': b'creating build/robot_services/robot_services.egg-info\n'}
+[3.964039] (robot_services) StdoutLine: {'line': b'writing build/robot_services/robot_services.egg-info/PKG-INFO\n'}
+[3.964184] (robot_services) StdoutLine: {'line': b'writing dependency_links to build/robot_services/robot_services.egg-info/dependency_links.txt\n'}
+[3.964926] (robot_services) StdoutLine: {'line': b'writing entry points to build/robot_services/robot_services.egg-info/entry_points.txt\n'}
+[3.965942] (robot_services) StdoutLine: {'line': b'writing requirements to build/robot_services/robot_services.egg-info/requires.txt\n'}
+[3.966138] (robot_services) StdoutLine: {'line': b'writing top-level names to build/robot_services/robot_services.egg-info/top_level.txt\n'}
+[3.966240] (robot_services) StdoutLine: {'line': b"writing manifest file 'build/robot_services/robot_services.egg-info/SOURCES.txt'\n"}
+[4.041005] (-) TimerEvent: {}
+[4.056098] (robot_services) StdoutLine: {'line': b"reading manifest file 'build/robot_services/robot_services.egg-info/SOURCES.txt'\n"}
+[4.059028] (robot_services) StdoutLine: {'line': b"writing manifest file 'build/robot_services/robot_services.egg-info/SOURCES.txt'\n"}
+[4.062722] (robot_services) StdoutLine: {'line': b'running build\n'}
+[4.063219] (robot_services) StdoutLine: {'line': b'running build_py\n'}
+[4.063351] (robot_services) StdoutLine: {'line': b'creating /home/jgsnto/LearnROS/01_ros2_fundamentals/05_services/src/robot_services/build/robot_services/build/lib/robot_services\n'}
+[4.063444] (robot_services) StdoutLine: {'line': b'copying robot_services/services_server.py -> /home/jgsnto/LearnROS/01_ros2_fundamentals/05_services/src/robot_services/build/robot_services/build/lib/robot_services\n'}
+[4.063525] (robot_services) StdoutLine: {'line': b'copying robot_services/__init__.py -> /home/jgsnto/LearnROS/01_ros2_fundamentals/05_services/src/robot_services/build/robot_services/build/lib/robot_services\n'}
+[4.063604] (robot_services) StdoutLine: {'line': b'copying robot_services/services_client.py -> /home/jgsnto/LearnROS/01_ros2_fundamentals/05_services/src/robot_services/build/robot_services/build/lib/robot_services\n'}
+[4.063679] (robot_services) StdoutLine: {'line': b'running install\n'}
+[4.074042] (robot_services) StdoutLine: {'line': b'running install_lib\n'}
+[4.124485] (robot_services) StdoutLine: {'line': b'creating /home/jgsnto/LearnROS/01_ros2_fundamentals/05_services/src/robot_services/install/robot_services/lib/python3.10/site-packages/robot_services\n'}
+[4.125302] (robot_services) StdoutLine: {'line': b'copying /home/jgsnto/LearnROS/01_ros2_fundamentals/05_services/src/robot_services/build/robot_services/build/lib/robot_services/services_server.py -> /home/jgsnto/LearnROS/01_ros2_fundamentals/05_services/src/robot_services/install/robot_services/lib/python3.10/site-packages/robot_services\n'}
+[4.125996] (robot_services) StdoutLine: {'line': b'copying /home/jgsnto/LearnROS/01_ros2_fundamentals/05_services/src/robot_services/build/robot_services/build/lib/robot_services/__init__.py -> /home/jgsnto/LearnROS/01_ros2_fundamentals/05_services/src/robot_services/install/robot_services/lib/python3.10/site-packages/robot_services\n'}
+[4.126700] (robot_services) StdoutLine: {'line': b'copying /home/jgsnto/LearnROS/01_ros2_fundamentals/05_services/src/robot_services/build/robot_services/build/lib/robot_services/services_client.py -> /home/jgsnto/LearnROS/01_ros2_fundamentals/05_services/src/robot_services/install/robot_services/lib/python3.10/site-packages/robot_services\n'}
+[4.128596] (robot_services) StdoutLine: {'line': b'byte-compiling /home/jgsnto/LearnROS/01_ros2_fundamentals/05_services/src/robot_services/install/robot_services/lib/python3.10/site-packages/robot_services/services_server.py to services_server.cpython-310.pyc\n'}
+[4.130183] (robot_services) StderrLine: {'line': b'  File "/home/jgsnto/LearnROS/01_ros2_fundamentals/05_services/src/robot_services/install/robot_services/lib/python3.10/site-packages/robot_services/services_server.py", line 7\n'}
+[4.131005] (robot_services) StderrLine: {'line': b"    def __init__('robot_service_server')\n"}
+[4.131237] (robot_services) StderrLine: {'line': b'                 ^^^^^^^^^^^^^^^^^^^^^^\n'}
+[4.131344] (robot_services) StderrLine: {'line': b'SyntaxError: invalid syntax\n'}
+[4.131451] (robot_services) StderrLine: {'line': b'\n'}
+[4.132098] (robot_services) StdoutLine: {'line': b'byte-compiling /home/jgsnto/LearnROS/01_ros2_fundamentals/05_services/src/robot_services/install/robot_services/lib/python3.10/site-packages/robot_services/__init__.py to __init__.cpython-310.pyc\n'}
+[4.132241] (robot_services) StdoutLine: {'line': b'byte-compiling /home/jgsnto/LearnROS/01_ros2_fundamentals/05_services/src/robot_services/install/robot_services/lib/python3.10/site-packages/robot_services/services_client.py to services_client.cpython-310.pyc\n'}
+[4.133017] (robot_services) StdoutLine: {'line': b'running install_data\n'}
+[4.133122] (robot_services) StdoutLine: {'line': b'creating /home/jgsnto/LearnROS/01_ros2_fundamentals/05_services/src/robot_services/install/robot_services/share/ament_index/resource_index/packages\n'}
+[4.133698] (robot_services) StdoutLine: {'line': b'copying resource/robot_services -> /home/jgsnto/LearnROS/01_ros2_fundamentals/05_services/src/robot_services/install/robot_services/share/ament_index/resource_index/packages\n'}
+[4.134236] (robot_services) StdoutLine: {'line': b'copying package.xml -> /home/jgsnto/LearnROS/01_ros2_fundamentals/05_services/src/robot_services/install/robot_services/share/robot_services\n'}
+[4.134840] (robot_services) StdoutLine: {'line': b'running install_egg_info\n'}
+[4.141856] (-) TimerEvent: {}
+[4.177929] (robot_services) StdoutLine: {'line': b'Copying build/robot_services/robot_services.egg-info to /home/jgsnto/LearnROS/01_ros2_fundamentals/05_services/src/robot_services/install/robot_services/lib/python3.10/site-packages/robot_services-0.0.0-py3.10.egg-info\n'}
+[4.180376] (robot_services) StdoutLine: {'line': b'running install_scripts\n'}
+[4.242637] (-) TimerEvent: {}
+[4.277008] (robot_services) StdoutLine: {'line': b'Installing service_client script to /home/jgsnto/LearnROS/01_ros2_fundamentals/05_services/src/robot_services/install/robot_services/lib/robot_services\n'}
+[4.277490] (robot_services) StdoutLine: {'line': b'Installing service_server script to /home/jgsnto/LearnROS/01_ros2_fundamentals/05_services/src/robot_services/install/robot_services/lib/robot_services\n'}
+[4.280264] (robot_services) StdoutLine: {'line': b"writing list of installed files to '/home/jgsnto/LearnROS/01_ros2_fundamentals/05_services/src/robot_services/build/robot_services/install.log'\n"}
+[4.343588] (-) TimerEvent: {}
+[4.347124] (robot_services) CommandEnded: {'returncode': 0}
+[4.453714] (-) TimerEvent: {}
+[4.458029] (robot_services) JobEnded: {'identifier': 'robot_services', 'rc': 0}
+[4.462125] (-) EventReactorShutdown: {}

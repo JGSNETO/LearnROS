@@ -1,0 +1,5 @@
+  File "/home/jgsnto/LearnROS/01_ros2_fundamentals/05_services/src/robot_services/install/robot_services/lib/python3.10/site-packages/robot_services/services_server.py", line 47
+    finnaly:
+            ^
+SyntaxError: invalid syntax
+

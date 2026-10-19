@@ -1,0 +1,3 @@
+[console_scripts]
+service_client = robot_services.services_client:main
+service_server = robot_services.services_server:main

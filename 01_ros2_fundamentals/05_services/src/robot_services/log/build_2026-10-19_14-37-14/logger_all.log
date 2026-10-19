@@ -1,0 +1,90 @@
+[0.830s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.830s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=3, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x70856c9a0340>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x70856c973d90>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x70856c973d90>>, mixin_verb=('build',))
+[1.200s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[1.201s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[1.201s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[1.201s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[1.201s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[1.201s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[1.201s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/jgsnto/LearnROS/01_ros2_fundamentals/05_services/src/robot_services'
+[1.201s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[1.201s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[1.202s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[1.202s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[1.202s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[1.202s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[1.202s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[1.202s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[1.202s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[1.250s] DEBUG:colcon.colcon_core.package_identification:Package '.' with type 'ros.ament_python' and name 'robot_services'
+[1.251s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[1.251s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[1.251s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[1.251s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[1.251s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[1.378s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[1.378s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[1.399s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 386 installed packages in /opt/ros/humble
+[1.403s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[1.567s] Level 5:colcon.colcon_core.verb:set package 'robot_services' build argument 'cmake_args' from command line to 'None'
+[1.567s] Level 5:colcon.colcon_core.verb:set package 'robot_services' build argument 'cmake_target' from command line to 'None'
+[1.567s] Level 5:colcon.colcon_core.verb:set package 'robot_services' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.567s] Level 5:colcon.colcon_core.verb:set package 'robot_services' build argument 'cmake_clean_cache' from command line to 'False'
+[1.567s] Level 5:colcon.colcon_core.verb:set package 'robot_services' build argument 'cmake_clean_first' from command line to 'False'
+[1.567s] Level 5:colcon.colcon_core.verb:set package 'robot_services' build argument 'cmake_force_configure' from command line to 'False'
+[1.567s] Level 5:colcon.colcon_core.verb:set package 'robot_services' build argument 'ament_cmake_args' from command line to 'None'
+[1.567s] Level 5:colcon.colcon_core.verb:set package 'robot_services' build argument 'catkin_cmake_args' from command line to 'None'
+[1.567s] Level 5:colcon.colcon_core.verb:set package 'robot_services' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.567s] DEBUG:colcon.colcon_core.verb:Building package 'robot_services' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/jgsnto/LearnROS/01_ros2_fundamentals/05_services/src/robot_services/build/robot_services', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/jgsnto/LearnROS/01_ros2_fundamentals/05_services/src/robot_services/install/robot_services', 'merge_install': False, 'path': '/home/jgsnto/LearnROS/01_ros2_fundamentals/05_services/src/robot_services', 'symlink_install': False, 'test_result_base': None}
+[1.568s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[1.572s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[1.572s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/jgsnto/LearnROS/01_ros2_fundamentals/05_services/src/robot_services' with build type 'ament_python'
+[1.573s] Level 1:colcon.colcon_core.shell:create_environment_hook('robot_services', 'ament_prefix_path')
+[1.613s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[1.614s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jgsnto/LearnROS/01_ros2_fundamentals/05_services/src/robot_services/install/robot_services/share/robot_services/hook/ament_prefix_path.ps1'
+[1.618s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jgsnto/LearnROS/01_ros2_fundamentals/05_services/src/robot_services/install/robot_services/share/robot_services/hook/ament_prefix_path.dsv'
+[1.621s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jgsnto/LearnROS/01_ros2_fundamentals/05_services/src/robot_services/install/robot_services/share/robot_services/hook/ament_prefix_path.sh'
+[1.628s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.629s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.300s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/jgsnto/LearnROS/01_ros2_fundamentals/05_services/src/robot_services'
+[2.300s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.300s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[4.747s] DEBUG:colcon.colcon_core.task.python.build:Available setuptools commands: build_py, build_scripts, install_scripts, editable_wheel, rotate, alias, install_egg_info, bdist, install_headers, develop, update_catalog, install, saveopts, dist_info, clean, sdist, init_catalog, build_clib, check, bdist_wheel, build, build_ext, bdist_egg, easy_install, compile_catalog, bdist_rpm, symlink_data, install_lib, setopt, egg_info, bdist_dumb, extract_messages, install_data
+[4.755s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jgsnto/LearnROS/01_ros2_fundamentals/05_services/src/robot_services': PYTHONPATH=/home/jgsnto/LearnROS/01_ros2_fundamentals/05_services/src/robot_services/build/robot_services/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jgsnto/LearnROS/01_ros2_fundamentals/05_services/src/robot_services/install/robot_services/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base build/robot_services build --build-base /home/jgsnto/LearnROS/01_ros2_fundamentals/05_services/src/robot_services/build/robot_services/build install --record /home/jgsnto/LearnROS/01_ros2_fundamentals/05_services/src/robot_services/build/robot_services/install.log --install-scripts $base/lib/robot_services --single-version-externally-managed install_data
+[5.922s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jgsnto/LearnROS/01_ros2_fundamentals/05_services/src/robot_services' returned '0': PYTHONPATH=/home/jgsnto/LearnROS/01_ros2_fundamentals/05_services/src/robot_services/build/robot_services/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jgsnto/LearnROS/01_ros2_fundamentals/05_services/src/robot_services/install/robot_services/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base build/robot_services build --build-base /home/jgsnto/LearnROS/01_ros2_fundamentals/05_services/src/robot_services/build/robot_services/build install --record /home/jgsnto/LearnROS/01_ros2_fundamentals/05_services/src/robot_services/build/robot_services/install.log --install-scripts $base/lib/robot_services --single-version-externally-managed install_data
+[5.967s] Level 1:colcon.colcon_core.environment:checking '/home/jgsnto/LearnROS/01_ros2_fundamentals/05_services/src/robot_services/install/robot_services' for CMake module files
+[5.969s] Level 1:colcon.colcon_core.environment:checking '/home/jgsnto/LearnROS/01_ros2_fundamentals/05_services/src/robot_services/install/robot_services' for CMake config files
+[5.970s] Level 1:colcon.colcon_core.environment:checking '/home/jgsnto/LearnROS/01_ros2_fundamentals/05_services/src/robot_services/install/robot_services/lib'
+[5.971s] Level 1:colcon.colcon_core.environment:checking '/home/jgsnto/LearnROS/01_ros2_fundamentals/05_services/src/robot_services/install/robot_services/bin'
+[5.971s] Level 1:colcon.colcon_core.environment:checking '/home/jgsnto/LearnROS/01_ros2_fundamentals/05_services/src/robot_services/install/robot_services/lib/pkgconfig/robot_services.pc'
+[5.971s] Level 1:colcon.colcon_core.environment:checking '/home/jgsnto/LearnROS/01_ros2_fundamentals/05_services/src/robot_services/install/robot_services/lib/python3.10/site-packages'
+[5.972s] Level 1:colcon.colcon_core.shell:create_environment_hook('robot_services', 'pythonpath')
+[5.972s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jgsnto/LearnROS/01_ros2_fundamentals/05_services/src/robot_services/install/robot_services/share/robot_services/hook/pythonpath.ps1'
+[5.973s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jgsnto/LearnROS/01_ros2_fundamentals/05_services/src/robot_services/install/robot_services/share/robot_services/hook/pythonpath.dsv'
+[5.974s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jgsnto/LearnROS/01_ros2_fundamentals/05_services/src/robot_services/install/robot_services/share/robot_services/hook/pythonpath.sh'
+[5.975s] Level 1:colcon.colcon_core.environment:checking '/home/jgsnto/LearnROS/01_ros2_fundamentals/05_services/src/robot_services/install/robot_services/bin'
+[5.977s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(robot_services)
+[5.978s] INFO:colcon.colcon_core.shell:Creating package script '/home/jgsnto/LearnROS/01_ros2_fundamentals/05_services/src/robot_services/install/robot_services/share/robot_services/package.ps1'
+[5.983s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jgsnto/LearnROS/01_ros2_fundamentals/05_services/src/robot_services/install/robot_services/share/robot_services/package.dsv'
+[5.987s] INFO:colcon.colcon_core.shell:Creating package script '/home/jgsnto/LearnROS/01_ros2_fundamentals/05_services/src/robot_services/install/robot_services/share/robot_services/package.sh'
+[5.990s] INFO:colcon.colcon_core.shell:Creating package script '/home/jgsnto/LearnROS/01_ros2_fundamentals/05_services/src/robot_services/install/robot_services/share/robot_services/package.bash'
+[5.996s] INFO:colcon.colcon_core.shell:Creating package script '/home/jgsnto/LearnROS/01_ros2_fundamentals/05_services/src/robot_services/install/robot_services/share/robot_services/package.zsh'
+[6.028s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jgsnto/LearnROS/01_ros2_fundamentals/05_services/src/robot_services/install/robot_services/share/colcon-core/packages/robot_services)
+[6.031s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[6.032s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[6.032s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[6.033s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[6.060s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[6.060s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[6.061s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[6.162s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[6.163s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/jgsnto/LearnROS/01_ros2_fundamentals/05_services/src/robot_services/install/local_setup.ps1'
+[6.166s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/jgsnto/LearnROS/01_ros2_fundamentals/05_services/src/robot_services/install/_local_setup_util_ps1.py'
+[6.173s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/jgsnto/LearnROS/01_ros2_fundamentals/05_services/src/robot_services/install/setup.ps1'
+[6.179s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/jgsnto/LearnROS/01_ros2_fundamentals/05_services/src/robot_services/install/local_setup.sh'
+[6.183s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/jgsnto/LearnROS/01_ros2_fundamentals/05_services/src/robot_services/install/_local_setup_util_sh.py'
+[6.185s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/jgsnto/LearnROS/01_ros2_fundamentals/05_services/src/robot_services/install/setup.sh'
+[6.189s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/jgsnto/LearnROS/01_ros2_fundamentals/05_services/src/robot_services/install/local_setup.bash'
+[6.193s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/jgsnto/LearnROS/01_ros2_fundamentals/05_services/src/robot_services/install/setup.bash'
+[6.198s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/jgsnto/LearnROS/01_ros2_fundamentals/05_services/src/robot_services/install/local_setup.zsh'
+[6.202s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/jgsnto/LearnROS/01_ros2_fundamentals/05_services/src/robot_services/install/setup.zsh'

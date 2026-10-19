@@ -1,0 +1,23 @@
+running egg_info
+writing build/robot_services/robot_services.egg-info/PKG-INFO
+writing dependency_links to build/robot_services/robot_services.egg-info/dependency_links.txt
+writing entry points to build/robot_services/robot_services.egg-info/entry_points.txt
+writing requirements to build/robot_services/robot_services.egg-info/requires.txt
+writing top-level names to build/robot_services/robot_services.egg-info/top_level.txt
+reading manifest file 'build/robot_services/robot_services.egg-info/SOURCES.txt'
+writing manifest file 'build/robot_services/robot_services.egg-info/SOURCES.txt'
+running build
+running build_py
+copying robot_services/services_client.py -> /home/jgsnto/LearnROS/01_ros2_fundamentals/05_services/src/robot_services/build/robot_services/build/lib/robot_services
+running install
+running install_lib
+copying /home/jgsnto/LearnROS/01_ros2_fundamentals/05_services/src/robot_services/build/robot_services/build/lib/robot_services/services_client.py -> /home/jgsnto/LearnROS/01_ros2_fundamentals/05_services/src/robot_services/install/robot_services/lib/python3.10/site-packages/robot_services
+byte-compiling /home/jgsnto/LearnROS/01_ros2_fundamentals/05_services/src/robot_services/install/robot_services/lib/python3.10/site-packages/robot_services/services_client.py to services_client.cpython-310.pyc
+running install_data
+running install_egg_info
+removing '/home/jgsnto/LearnROS/01_ros2_fundamentals/05_services/src/robot_services/install/robot_services/lib/python3.10/site-packages/robot_services-0.0.0-py3.10.egg-info' (and everything under it)
+Copying build/robot_services/robot_services.egg-info to /home/jgsnto/LearnROS/01_ros2_fundamentals/05_services/src/robot_services/install/robot_services/lib/python3.10/site-packages/robot_services-0.0.0-py3.10.egg-info
+running install_scripts
+Installing service_client script to /home/jgsnto/LearnROS/01_ros2_fundamentals/05_services/src/robot_services/install/robot_services/lib/robot_services
+Installing service_server script to /home/jgsnto/LearnROS/01_ros2_fundamentals/05_services/src/robot_services/install/robot_services/lib/robot_services
+writing list of installed files to '/home/jgsnto/LearnROS/01_ros2_fundamentals/05_services/src/robot_services/build/robot_services/install.log'

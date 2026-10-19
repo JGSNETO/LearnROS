@@ -1,0 +1,30 @@
+[1.985s] Invoking command in '/home/jgsnto/LearnROS/01_ros2_fundamentals/05_services/src/robot_services': PYTHONPATH=/home/jgsnto/LearnROS/01_ros2_fundamentals/05_services/src/robot_services/build/robot_services/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jgsnto/LearnROS/01_ros2_fundamentals/05_services/src/robot_services/install/robot_services/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base build/robot_services build --build-base /home/jgsnto/LearnROS/01_ros2_fundamentals/05_services/src/robot_services/build/robot_services/build install --record /home/jgsnto/LearnROS/01_ros2_fundamentals/05_services/src/robot_services/build/robot_services/install.log --install-scripts $base/lib/robot_services --single-version-externally-managed install_data
+[2.480s] running egg_info
+[2.525s] writing build/robot_services/robot_services.egg-info/PKG-INFO
+[2.528s] writing dependency_links to build/robot_services/robot_services.egg-info/dependency_links.txt
+[2.530s] writing entry points to build/robot_services/robot_services.egg-info/entry_points.txt
+[2.532s] writing requirements to build/robot_services/robot_services.egg-info/requires.txt
+[2.533s] writing top-level names to build/robot_services/robot_services.egg-info/top_level.txt
+[2.616s] reading manifest file 'build/robot_services/robot_services.egg-info/SOURCES.txt'
+[2.618s] writing manifest file 'build/robot_services/robot_services.egg-info/SOURCES.txt'
+[2.619s] running build
+[2.619s] running build_py
+[2.620s] copying robot_services/services_server.py -> /home/jgsnto/LearnROS/01_ros2_fundamentals/05_services/src/robot_services/build/robot_services/build/lib/robot_services
+[2.622s] running install
+[2.631s] running install_lib
+[2.672s] copying /home/jgsnto/LearnROS/01_ros2_fundamentals/05_services/src/robot_services/build/robot_services/build/lib/robot_services/services_server.py -> /home/jgsnto/LearnROS/01_ros2_fundamentals/05_services/src/robot_services/install/robot_services/lib/python3.10/site-packages/robot_services
+[2.675s] byte-compiling /home/jgsnto/LearnROS/01_ros2_fundamentals/05_services/src/robot_services/install/robot_services/lib/python3.10/site-packages/robot_services/services_server.py to services_server.cpython-310.pyc
+[2.676s] running install_data
+[2.678s]   File "/home/jgsnto/LearnROS/01_ros2_fundamentals/05_services/src/robot_services/install/robot_services/lib/python3.10/site-packages/robot_services/services_server.py", line 47
+[2.678s]     finnaly:
+[2.678s]             ^
+[2.678s] SyntaxError: invalid syntax
+[2.679s] 
+[2.679s] running install_egg_info
+[2.723s] removing '/home/jgsnto/LearnROS/01_ros2_fundamentals/05_services/src/robot_services/install/robot_services/lib/python3.10/site-packages/robot_services-0.0.0-py3.10.egg-info' (and everything under it)
+[2.725s] Copying build/robot_services/robot_services.egg-info to /home/jgsnto/LearnROS/01_ros2_fundamentals/05_services/src/robot_services/install/robot_services/lib/python3.10/site-packages/robot_services-0.0.0-py3.10.egg-info
+[2.730s] running install_scripts
+[2.813s] Installing service_client script to /home/jgsnto/LearnROS/01_ros2_fundamentals/05_services/src/robot_services/install/robot_services/lib/robot_services
+[2.817s] Installing service_server script to /home/jgsnto/LearnROS/01_ros2_fundamentals/05_services/src/robot_services/install/robot_services/lib/robot_services
+[2.819s] writing list of installed files to '/home/jgsnto/LearnROS/01_ros2_fundamentals/05_services/src/robot_services/build/robot_services/install.log'
+[2.879s] Invoked command in '/home/jgsnto/LearnROS/01_ros2_fundamentals/05_services/src/robot_services' returned '0': PYTHONPATH=/home/jgsnto/LearnROS/01_ros2_fundamentals/05_services/src/robot_services/build/robot_services/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jgsnto/LearnROS/01_ros2_fundamentals/05_services/src/robot_services/install/robot_services/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base build/robot_services build --build-base /home/jgsnto/LearnROS/01_ros2_fundamentals/05_services/src/robot_services/build/robot_services/build install --record /home/jgsnto/LearnROS/01_ros2_fundamentals/05_services/src/robot_services/build/robot_services/install.log --install-scripts $base/lib/robot_services --single-version-externally-managed install_data
