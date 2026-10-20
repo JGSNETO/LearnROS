@@ -1,0 +1,35 @@
+running egg_info
+creating build/turtlebot3_services/turtlebot3_services.egg-info
+writing build/turtlebot3_services/turtlebot3_services.egg-info/PKG-INFO
+writing dependency_links to build/turtlebot3_services/turtlebot3_services.egg-info/dependency_links.txt
+writing entry points to build/turtlebot3_services/turtlebot3_services.egg-info/entry_points.txt
+writing requirements to build/turtlebot3_services/turtlebot3_services.egg-info/requires.txt
+writing top-level names to build/turtlebot3_services/turtlebot3_services.egg-info/top_level.txt
+writing manifest file 'build/turtlebot3_services/turtlebot3_services.egg-info/SOURCES.txt'
+reading manifest file 'build/turtlebot3_services/turtlebot3_services.egg-info/SOURCES.txt'
+writing manifest file 'build/turtlebot3_services/turtlebot3_services.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/jgsnto/LearnROS/01_ros2_fundamentals/05_services/src/turtlebot3_services/build/turtlebot3_services/build/lib/turtlebot3_services
+copying turtlebot3_services/__init__.py -> /home/jgsnto/LearnROS/01_ros2_fundamentals/05_services/src/turtlebot3_services/build/turtlebot3_services/build/lib/turtlebot3_services
+copying turtlebot3_services/reset_client.py -> /home/jgsnto/LearnROS/01_ros2_fundamentals/05_services/src/turtlebot3_services/build/turtlebot3_services/build/lib/turtlebot3_services
+copying turtlebot3_services/reset_server.py -> /home/jgsnto/LearnROS/01_ros2_fundamentals/05_services/src/turtlebot3_services/build/turtlebot3_services/build/lib/turtlebot3_services
+running install
+running install_lib
+creating /home/jgsnto/LearnROS/01_ros2_fundamentals/05_services/src/turtlebot3_services/install/turtlebot3_services/lib/python3.10/site-packages/turtlebot3_services
+copying /home/jgsnto/LearnROS/01_ros2_fundamentals/05_services/src/turtlebot3_services/build/turtlebot3_services/build/lib/turtlebot3_services/__init__.py -> /home/jgsnto/LearnROS/01_ros2_fundamentals/05_services/src/turtlebot3_services/install/turtlebot3_services/lib/python3.10/site-packages/turtlebot3_services
+copying /home/jgsnto/LearnROS/01_ros2_fundamentals/05_services/src/turtlebot3_services/build/turtlebot3_services/build/lib/turtlebot3_services/reset_client.py -> /home/jgsnto/LearnROS/01_ros2_fundamentals/05_services/src/turtlebot3_services/install/turtlebot3_services/lib/python3.10/site-packages/turtlebot3_services
+copying /home/jgsnto/LearnROS/01_ros2_fundamentals/05_services/src/turtlebot3_services/build/turtlebot3_services/build/lib/turtlebot3_services/reset_server.py -> /home/jgsnto/LearnROS/01_ros2_fundamentals/05_services/src/turtlebot3_services/install/turtlebot3_services/lib/python3.10/site-packages/turtlebot3_services
+byte-compiling /home/jgsnto/LearnROS/01_ros2_fundamentals/05_services/src/turtlebot3_services/install/turtlebot3_services/lib/python3.10/site-packages/turtlebot3_services/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/jgsnto/LearnROS/01_ros2_fundamentals/05_services/src/turtlebot3_services/install/turtlebot3_services/lib/python3.10/site-packages/turtlebot3_services/reset_client.py to reset_client.cpython-310.pyc
+byte-compiling /home/jgsnto/LearnROS/01_ros2_fundamentals/05_services/src/turtlebot3_services/install/turtlebot3_services/lib/python3.10/site-packages/turtlebot3_services/reset_server.py to reset_server.cpython-310.pyc
+running install_data
+creating /home/jgsnto/LearnROS/01_ros2_fundamentals/05_services/src/turtlebot3_services/install/turtlebot3_services/share/ament_index/resource_index/packages
+copying resource/turtlebot3_services -> /home/jgsnto/LearnROS/01_ros2_fundamentals/05_services/src/turtlebot3_services/install/turtlebot3_services/share/ament_index/resource_index/packages
+copying package.xml -> /home/jgsnto/LearnROS/01_ros2_fundamentals/05_services/src/turtlebot3_services/install/turtlebot3_services/share/turtlebot3_services
+running install_egg_info
+Copying build/turtlebot3_services/turtlebot3_services.egg-info to /home/jgsnto/LearnROS/01_ros2_fundamentals/05_services/src/turtlebot3_services/install/turtlebot3_services/lib/python3.10/site-packages/turtlebot3_services-0.0.0-py3.10.egg-info
+running install_scripts
+Installing reset_client script to /home/jgsnto/LearnROS/01_ros2_fundamentals/05_services/src/turtlebot3_services/install/turtlebot3_services/lib/turtlebot3_services
+Installing reset_server script to /home/jgsnto/LearnROS/01_ros2_fundamentals/05_services/src/turtlebot3_services/install/turtlebot3_services/lib/turtlebot3_services
+writing list of installed files to '/home/jgsnto/LearnROS/01_ros2_fundamentals/05_services/src/turtlebot3_services/build/turtlebot3_services/install.log'

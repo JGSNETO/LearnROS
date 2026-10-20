@@ -1,0 +1,37 @@
+[3.828s] Invoking command in '/home/jgsnto/LearnROS/01_ros2_fundamentals/05_services/src/turtlebot3_services': PYTHONPATH=/home/jgsnto/LearnROS/01_ros2_fundamentals/05_services/src/turtlebot3_services/build/turtlebot3_services/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jgsnto/LearnROS/01_ros2_fundamentals/05_services/src/turtlebot3_services/install/turtlebot3_services/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base build/turtlebot3_services build --build-base /home/jgsnto/LearnROS/01_ros2_fundamentals/05_services/src/turtlebot3_services/build/turtlebot3_services/build install --record /home/jgsnto/LearnROS/01_ros2_fundamentals/05_services/src/turtlebot3_services/build/turtlebot3_services/install.log --install-scripts $base/lib/turtlebot3_services --single-version-externally-managed install_data
+[4.694s] running egg_info
+[4.780s] creating build/turtlebot3_services/turtlebot3_services.egg-info
+[4.780s] writing build/turtlebot3_services/turtlebot3_services.egg-info/PKG-INFO
+[4.795s] writing dependency_links to build/turtlebot3_services/turtlebot3_services.egg-info/dependency_links.txt
+[4.795s] writing entry points to build/turtlebot3_services/turtlebot3_services.egg-info/entry_points.txt
+[4.796s] writing requirements to build/turtlebot3_services/turtlebot3_services.egg-info/requires.txt
+[4.796s] writing top-level names to build/turtlebot3_services/turtlebot3_services.egg-info/top_level.txt
+[4.796s] writing manifest file 'build/turtlebot3_services/turtlebot3_services.egg-info/SOURCES.txt'
+[4.875s] reading manifest file 'build/turtlebot3_services/turtlebot3_services.egg-info/SOURCES.txt'
+[4.876s] writing manifest file 'build/turtlebot3_services/turtlebot3_services.egg-info/SOURCES.txt'
+[4.877s] running build
+[4.880s] running build_py
+[4.880s] creating /home/jgsnto/LearnROS/01_ros2_fundamentals/05_services/src/turtlebot3_services/build/turtlebot3_services/build/lib/turtlebot3_services
+[4.880s] copying turtlebot3_services/__init__.py -> /home/jgsnto/LearnROS/01_ros2_fundamentals/05_services/src/turtlebot3_services/build/turtlebot3_services/build/lib/turtlebot3_services
+[4.880s] copying turtlebot3_services/reset_client.py -> /home/jgsnto/LearnROS/01_ros2_fundamentals/05_services/src/turtlebot3_services/build/turtlebot3_services/build/lib/turtlebot3_services
+[4.881s] copying turtlebot3_services/reset_server.py -> /home/jgsnto/LearnROS/01_ros2_fundamentals/05_services/src/turtlebot3_services/build/turtlebot3_services/build/lib/turtlebot3_services
+[4.887s] running install
+[4.901s] running install_lib
+[4.956s] creating /home/jgsnto/LearnROS/01_ros2_fundamentals/05_services/src/turtlebot3_services/install/turtlebot3_services/lib/python3.10/site-packages/turtlebot3_services
+[4.957s] copying /home/jgsnto/LearnROS/01_ros2_fundamentals/05_services/src/turtlebot3_services/build/turtlebot3_services/build/lib/turtlebot3_services/__init__.py -> /home/jgsnto/LearnROS/01_ros2_fundamentals/05_services/src/turtlebot3_services/install/turtlebot3_services/lib/python3.10/site-packages/turtlebot3_services
+[4.959s] copying /home/jgsnto/LearnROS/01_ros2_fundamentals/05_services/src/turtlebot3_services/build/turtlebot3_services/build/lib/turtlebot3_services/reset_client.py -> /home/jgsnto/LearnROS/01_ros2_fundamentals/05_services/src/turtlebot3_services/install/turtlebot3_services/lib/python3.10/site-packages/turtlebot3_services
+[4.965s] copying /home/jgsnto/LearnROS/01_ros2_fundamentals/05_services/src/turtlebot3_services/build/turtlebot3_services/build/lib/turtlebot3_services/reset_server.py -> /home/jgsnto/LearnROS/01_ros2_fundamentals/05_services/src/turtlebot3_services/install/turtlebot3_services/lib/python3.10/site-packages/turtlebot3_services
+[4.965s] byte-compiling /home/jgsnto/LearnROS/01_ros2_fundamentals/05_services/src/turtlebot3_services/install/turtlebot3_services/lib/python3.10/site-packages/turtlebot3_services/__init__.py to __init__.cpython-310.pyc
+[4.969s] byte-compiling /home/jgsnto/LearnROS/01_ros2_fundamentals/05_services/src/turtlebot3_services/install/turtlebot3_services/lib/python3.10/site-packages/turtlebot3_services/reset_client.py to reset_client.cpython-310.pyc
+[4.971s] byte-compiling /home/jgsnto/LearnROS/01_ros2_fundamentals/05_services/src/turtlebot3_services/install/turtlebot3_services/lib/python3.10/site-packages/turtlebot3_services/reset_server.py to reset_server.cpython-310.pyc
+[4.971s] running install_data
+[4.971s] creating /home/jgsnto/LearnROS/01_ros2_fundamentals/05_services/src/turtlebot3_services/install/turtlebot3_services/share/ament_index/resource_index/packages
+[4.972s] copying resource/turtlebot3_services -> /home/jgsnto/LearnROS/01_ros2_fundamentals/05_services/src/turtlebot3_services/install/turtlebot3_services/share/ament_index/resource_index/packages
+[4.972s] copying package.xml -> /home/jgsnto/LearnROS/01_ros2_fundamentals/05_services/src/turtlebot3_services/install/turtlebot3_services/share/turtlebot3_services
+[4.972s] running install_egg_info
+[5.030s] Copying build/turtlebot3_services/turtlebot3_services.egg-info to /home/jgsnto/LearnROS/01_ros2_fundamentals/05_services/src/turtlebot3_services/install/turtlebot3_services/lib/python3.10/site-packages/turtlebot3_services-0.0.0-py3.10.egg-info
+[5.035s] running install_scripts
+[5.174s] Installing reset_client script to /home/jgsnto/LearnROS/01_ros2_fundamentals/05_services/src/turtlebot3_services/install/turtlebot3_services/lib/turtlebot3_services
+[5.175s] Installing reset_server script to /home/jgsnto/LearnROS/01_ros2_fundamentals/05_services/src/turtlebot3_services/install/turtlebot3_services/lib/turtlebot3_services
+[5.185s] writing list of installed files to '/home/jgsnto/LearnROS/01_ros2_fundamentals/05_services/src/turtlebot3_services/build/turtlebot3_services/install.log'
+[5.280s] Invoked command in '/home/jgsnto/LearnROS/01_ros2_fundamentals/05_services/src/turtlebot3_services' returned '0': PYTHONPATH=/home/jgsnto/LearnROS/01_ros2_fundamentals/05_services/src/turtlebot3_services/build/turtlebot3_services/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jgsnto/LearnROS/01_ros2_fundamentals/05_services/src/turtlebot3_services/install/turtlebot3_services/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base build/turtlebot3_services build --build-base /home/jgsnto/LearnROS/01_ros2_fundamentals/05_services/src/turtlebot3_services/build/turtlebot3_services/build install --record /home/jgsnto/LearnROS/01_ros2_fundamentals/05_services/src/turtlebot3_services/build/turtlebot3_services/install.log --install-scripts $base/lib/turtlebot3_services --single-version-externally-managed install_data

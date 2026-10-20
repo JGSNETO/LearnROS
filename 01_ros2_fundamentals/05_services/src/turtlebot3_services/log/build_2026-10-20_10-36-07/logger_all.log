@@ -1,0 +1,90 @@
+[1.077s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[1.077s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=3, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x787ccbba0340>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x787ccbb73d90>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x787ccbb73d90>>, mixin_verb=('build',))
+[1.465s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[1.465s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[1.465s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[1.465s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[1.465s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[1.466s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[1.466s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/jgsnto/LearnROS/01_ros2_fundamentals/05_services/src/turtlebot3_services'
+[1.467s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[1.467s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[1.467s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[1.468s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[1.468s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[1.468s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[1.468s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[1.468s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[1.469s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[1.549s] DEBUG:colcon.colcon_core.package_identification:Package '.' with type 'ros.ament_python' and name 'turtlebot3_services'
+[1.549s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[1.550s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[1.550s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[1.550s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[1.550s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[1.766s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[1.767s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[1.785s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 386 installed packages in /opt/ros/humble
+[1.790s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[1.979s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_services' build argument 'cmake_args' from command line to 'None'
+[1.979s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_services' build argument 'cmake_target' from command line to 'None'
+[1.979s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_services' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.979s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_services' build argument 'cmake_clean_cache' from command line to 'False'
+[1.979s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_services' build argument 'cmake_clean_first' from command line to 'False'
+[1.979s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_services' build argument 'cmake_force_configure' from command line to 'False'
+[1.979s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_services' build argument 'ament_cmake_args' from command line to 'None'
+[1.979s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_services' build argument 'catkin_cmake_args' from command line to 'None'
+[1.980s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_services' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.980s] DEBUG:colcon.colcon_core.verb:Building package 'turtlebot3_services' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/jgsnto/LearnROS/01_ros2_fundamentals/05_services/src/turtlebot3_services/build/turtlebot3_services', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/jgsnto/LearnROS/01_ros2_fundamentals/05_services/src/turtlebot3_services/install/turtlebot3_services', 'merge_install': False, 'path': '/home/jgsnto/LearnROS/01_ros2_fundamentals/05_services/src/turtlebot3_services', 'symlink_install': False, 'test_result_base': None}
+[1.980s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[1.987s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[1.987s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/jgsnto/LearnROS/01_ros2_fundamentals/05_services/src/turtlebot3_services' with build type 'ament_python'
+[1.988s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtlebot3_services', 'ament_prefix_path')
+[2.018s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[2.018s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jgsnto/LearnROS/01_ros2_fundamentals/05_services/src/turtlebot3_services/install/turtlebot3_services/share/turtlebot3_services/hook/ament_prefix_path.ps1'
+[2.026s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jgsnto/LearnROS/01_ros2_fundamentals/05_services/src/turtlebot3_services/install/turtlebot3_services/share/turtlebot3_services/hook/ament_prefix_path.dsv'
+[2.030s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jgsnto/LearnROS/01_ros2_fundamentals/05_services/src/turtlebot3_services/install/turtlebot3_services/share/turtlebot3_services/hook/ament_prefix_path.sh'
+[2.034s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.034s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.894s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/jgsnto/LearnROS/01_ros2_fundamentals/05_services/src/turtlebot3_services'
+[2.897s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.901s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[5.809s] DEBUG:colcon.colcon_core.task.python.build:Available setuptools commands: install_data, update_catalog, build_scripts, build_ext, saveopts, install, alias, develop, setopt, init_catalog, symlink_data, bdist_egg, build_clib, bdist_wheel, build, install_egg_info, install_headers, rotate, bdist_dumb, compile_catalog, bdist, egg_info, easy_install, sdist, install_scripts, extract_messages, bdist_rpm, check, build_py, clean, dist_info, editable_wheel, install_lib
+[5.817s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jgsnto/LearnROS/01_ros2_fundamentals/05_services/src/turtlebot3_services': PYTHONPATH=/home/jgsnto/LearnROS/01_ros2_fundamentals/05_services/src/turtlebot3_services/build/turtlebot3_services/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jgsnto/LearnROS/01_ros2_fundamentals/05_services/src/turtlebot3_services/install/turtlebot3_services/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base build/turtlebot3_services build --build-base /home/jgsnto/LearnROS/01_ros2_fundamentals/05_services/src/turtlebot3_services/build/turtlebot3_services/build install --record /home/jgsnto/LearnROS/01_ros2_fundamentals/05_services/src/turtlebot3_services/build/turtlebot3_services/install.log --install-scripts $base/lib/turtlebot3_services --single-version-externally-managed install_data
+[7.270s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jgsnto/LearnROS/01_ros2_fundamentals/05_services/src/turtlebot3_services' returned '0': PYTHONPATH=/home/jgsnto/LearnROS/01_ros2_fundamentals/05_services/src/turtlebot3_services/build/turtlebot3_services/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jgsnto/LearnROS/01_ros2_fundamentals/05_services/src/turtlebot3_services/install/turtlebot3_services/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base build/turtlebot3_services build --build-base /home/jgsnto/LearnROS/01_ros2_fundamentals/05_services/src/turtlebot3_services/build/turtlebot3_services/build install --record /home/jgsnto/LearnROS/01_ros2_fundamentals/05_services/src/turtlebot3_services/build/turtlebot3_services/install.log --install-scripts $base/lib/turtlebot3_services --single-version-externally-managed install_data
+[7.342s] Level 1:colcon.colcon_core.environment:checking '/home/jgsnto/LearnROS/01_ros2_fundamentals/05_services/src/turtlebot3_services/install/turtlebot3_services' for CMake module files
+[7.344s] Level 1:colcon.colcon_core.environment:checking '/home/jgsnto/LearnROS/01_ros2_fundamentals/05_services/src/turtlebot3_services/install/turtlebot3_services' for CMake config files
+[7.346s] Level 1:colcon.colcon_core.environment:checking '/home/jgsnto/LearnROS/01_ros2_fundamentals/05_services/src/turtlebot3_services/install/turtlebot3_services/lib'
+[7.347s] Level 1:colcon.colcon_core.environment:checking '/home/jgsnto/LearnROS/01_ros2_fundamentals/05_services/src/turtlebot3_services/install/turtlebot3_services/bin'
+[7.348s] Level 1:colcon.colcon_core.environment:checking '/home/jgsnto/LearnROS/01_ros2_fundamentals/05_services/src/turtlebot3_services/install/turtlebot3_services/lib/pkgconfig/turtlebot3_services.pc'
+[7.349s] Level 1:colcon.colcon_core.environment:checking '/home/jgsnto/LearnROS/01_ros2_fundamentals/05_services/src/turtlebot3_services/install/turtlebot3_services/lib/python3.10/site-packages'
+[7.349s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtlebot3_services', 'pythonpath')
+[7.350s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jgsnto/LearnROS/01_ros2_fundamentals/05_services/src/turtlebot3_services/install/turtlebot3_services/share/turtlebot3_services/hook/pythonpath.ps1'
+[7.352s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jgsnto/LearnROS/01_ros2_fundamentals/05_services/src/turtlebot3_services/install/turtlebot3_services/share/turtlebot3_services/hook/pythonpath.dsv'
+[7.353s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jgsnto/LearnROS/01_ros2_fundamentals/05_services/src/turtlebot3_services/install/turtlebot3_services/share/turtlebot3_services/hook/pythonpath.sh'
+[7.354s] Level 1:colcon.colcon_core.environment:checking '/home/jgsnto/LearnROS/01_ros2_fundamentals/05_services/src/turtlebot3_services/install/turtlebot3_services/bin'
+[7.355s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(turtlebot3_services)
+[7.355s] INFO:colcon.colcon_core.shell:Creating package script '/home/jgsnto/LearnROS/01_ros2_fundamentals/05_services/src/turtlebot3_services/install/turtlebot3_services/share/turtlebot3_services/package.ps1'
+[7.361s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jgsnto/LearnROS/01_ros2_fundamentals/05_services/src/turtlebot3_services/install/turtlebot3_services/share/turtlebot3_services/package.dsv'
+[7.364s] INFO:colcon.colcon_core.shell:Creating package script '/home/jgsnto/LearnROS/01_ros2_fundamentals/05_services/src/turtlebot3_services/install/turtlebot3_services/share/turtlebot3_services/package.sh'
+[7.369s] INFO:colcon.colcon_core.shell:Creating package script '/home/jgsnto/LearnROS/01_ros2_fundamentals/05_services/src/turtlebot3_services/install/turtlebot3_services/share/turtlebot3_services/package.bash'
+[7.375s] INFO:colcon.colcon_core.shell:Creating package script '/home/jgsnto/LearnROS/01_ros2_fundamentals/05_services/src/turtlebot3_services/install/turtlebot3_services/share/turtlebot3_services/package.zsh'
+[7.404s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jgsnto/LearnROS/01_ros2_fundamentals/05_services/src/turtlebot3_services/install/turtlebot3_services/share/colcon-core/packages/turtlebot3_services)
+[7.406s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[7.407s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[7.407s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[7.408s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[7.434s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[7.434s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[7.434s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[7.585s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[7.586s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/jgsnto/LearnROS/01_ros2_fundamentals/05_services/src/turtlebot3_services/install/local_setup.ps1'
+[7.588s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/jgsnto/LearnROS/01_ros2_fundamentals/05_services/src/turtlebot3_services/install/_local_setup_util_ps1.py'
+[7.597s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/jgsnto/LearnROS/01_ros2_fundamentals/05_services/src/turtlebot3_services/install/setup.ps1'
+[7.603s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/jgsnto/LearnROS/01_ros2_fundamentals/05_services/src/turtlebot3_services/install/local_setup.sh'
+[7.607s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/jgsnto/LearnROS/01_ros2_fundamentals/05_services/src/turtlebot3_services/install/_local_setup_util_sh.py'
+[7.608s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/jgsnto/LearnROS/01_ros2_fundamentals/05_services/src/turtlebot3_services/install/setup.sh'
+[7.615s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/jgsnto/LearnROS/01_ros2_fundamentals/05_services/src/turtlebot3_services/install/local_setup.bash'
+[7.620s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/jgsnto/LearnROS/01_ros2_fundamentals/05_services/src/turtlebot3_services/install/setup.bash'
+[7.626s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/jgsnto/LearnROS/01_ros2_fundamentals/05_services/src/turtlebot3_services/install/local_setup.zsh'
+[7.629s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/jgsnto/LearnROS/01_ros2_fundamentals/05_services/src/turtlebot3_services/install/setup.zsh'

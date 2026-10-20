@@ -1,0 +1,3 @@
+[console_scripts]
+reset_client = turtlebot3_services.reset_client:main
+reset_server = turtlebot3_services.reset_server:main
